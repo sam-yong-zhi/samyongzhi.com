@@ -165,6 +165,28 @@ a:hover {
   color: var(--muted);
 }
 
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.footer-social a {
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  transition: color 0.15s;
+}
+
+.footer-social a:hover {
+  color: var(--text);
+}
+
 /* ── Hero ────────────────────────────────── */
 
 .hero {
