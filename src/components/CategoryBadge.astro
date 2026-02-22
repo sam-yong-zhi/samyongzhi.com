@@ -1,0 +1,17 @@
+---
+interface Props {
+  category: 'parenting' | 'money' | 'ai-and-work';
+}
+
+const { category } = Astro.props;
+
+const meta = {
+  parenting: { label: 'Parenting', href: '/parenting' },
+  money: { label: 'Money', href: '/money' },
+  'ai-and-work': { label: 'AI & Work', href: '/ai-and-work' },
+};
+
+const { label, href } = meta[category];
+---
+
+<a href={href} class={`badge badge--${category}`}>{label}</a>

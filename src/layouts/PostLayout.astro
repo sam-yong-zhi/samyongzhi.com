@@ -1,0 +1,31 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import CategoryBadge from '../components/CategoryBadge.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, date, categories, description } = post.data;
+
+const formattedDate = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={title} description={description}>
+  <article>
+    <header class="post-header">
+      {categories.map((cat) => <CategoryBadge category={cat} />)}
+      <h1>{title}</h1>
+      <time class="post-date" datetime={date.toISOString()}>{formattedDate}</time>
+    </header>
+    <div class="prose">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
