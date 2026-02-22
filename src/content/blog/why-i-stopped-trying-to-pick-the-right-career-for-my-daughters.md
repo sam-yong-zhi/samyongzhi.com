@@ -40,7 +40,7 @@ So my wife and I have been trying to focus on something more durable. Not which 
 
 ---
 
-A few weeks ago I was telling my wife I was on a strict diet. One of our daughters overheard, and at dinner that night she announced she was on a strict diet too and pushed her food aside, barely touched.
+A few weeks ago, I was telling my wife I was on a strict diet. One of our daughters overheard, and at dinner that night she announced she was on a strict diet too and pushed her food aside, barely touched.
 
 I could have just corrected her. Instead I asked what she thought "strict" meant. She thought about it. Then I asked whether not finishing her normal portion was the same as what Daddy was doing. She worked it out herself.
 
@@ -56,7 +56,7 @@ But the world they are growing into will produce plausible answers on demand. Kn
 
 ---
 
-I am not certain this is right. There is a part of me that wonders if we are underweighting technical fluency, whether early exposure to tools will compound in ways we cannot predict.
+I am not certain this is right. There is a part of me that wonders if we are underweighting technical fluency: whether early exposure to tools will compound in ways we cannot predict.
 
 But I suspect many parents will rush toward the visible technical skills. And the scarcer advantage will remain judgment, curiosity, and the ability to ask a better question.
 

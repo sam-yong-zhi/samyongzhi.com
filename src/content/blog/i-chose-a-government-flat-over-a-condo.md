@@ -62,7 +62,7 @@ This is the one that cost us something real, and I want to be honest about it.
 
 No car means no spontaneous weekend drives. No singing along to bad radio on the expressway with the kids in the backseat. No falling asleep on the way home from a long day out. Those are genuine memories other families are making and we aren't. I think about that sometimes.
 
-But here's where the money went instead. A family car in Singapore, factoring in loan repayment, insurance, road tax, petrol, and parking, runs to around S$20,000 a year conservatively. We redirected that.
+But here's where the money went instead. A family car in Singapore, factoring in loan repayment, insurance, road tax, petrol, and parking, runs to around S$20,000 a year, conservatively. We redirected that.
 
 In the last few years, we've taken our daughters to Hong Kong, Macau, Tokyo, Osaka, Seoul, Malaysia, and Indonesia. We've sailed on Royal Caribbean. We did a staycation at Shangri-La Sentosa. We're booked on a Disney cruise in March.
 

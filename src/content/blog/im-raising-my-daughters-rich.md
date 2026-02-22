@@ -20,7 +20,7 @@ Last year I read Jonathan Haidt's *The Anxious Generation*. If you're a parent o
 
 Haidt's central argument is that smartphones and social media, introduced to kids around 2012, caused a measurable mental health crisis in adolescents. The data is uncomfortable. But the part that stopped me wasn't the overall trend. It was the asymmetry between boys and girls.
 
-Girls are hit significantly harder by social media specifically. The image-based comparison loops, the relational dynamics, the always-on social environment are particularly toxic for adolescent girls. I read that section and thought about my two daughters, who are seven now. And I felt the particular alertness you feel when something shifts from being a general social problem to being *your* problem.
+Girls are hit significantly harder by social media specifically. The image-based comparison loops, the relational dynamics, and the always-on social environment are particularly toxic for adolescent girls. I read that section and thought about my two daughters, who are seven now. And I felt the particular alertness you feel when something shifts from being a general social problem to being *your* problem.
 
 They're not on social media. But they will be. And the question that's been sitting with me since is: what do I build in them now, before that world arrives?
 
