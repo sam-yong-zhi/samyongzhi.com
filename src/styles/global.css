@@ -22,6 +22,17 @@
   --c-ai: #2c3e7a;
 }
 
+[data-theme="dark"] {
+  --bg: #1a1a18;
+  --text: #f0f0ee;
+  --muted: #8a8a86;
+  --border: #2e2e2c;
+
+  --c-parenting: #c27070;
+  --c-money: #5ea87a;
+  --c-ai: #6e87c8;
+}
+
 html {
   background: var(--bg);
   color: var(--text);
@@ -118,6 +129,32 @@ a:hover {
 .site-nav a:hover {
   color: var(--text);
 }
+
+.site-header__right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0.375rem 0;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+}
+
+.icon-sun { display: none; }
+[data-theme="dark"] .icon-moon { display: none; }
+[data-theme="dark"] .icon-sun { display: block; }
 
 /* ── Footer ──────────────────────────────── */
 
