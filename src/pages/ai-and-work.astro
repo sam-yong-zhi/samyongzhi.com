@@ -7,7 +7,7 @@ const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.c
 const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<BaseLayout title="AI & Work" description="Not hype, not panic — an honest look at what AI is changing about work and careers.">
+<BaseLayout title="AI & Work" description="Not hype, not panic but an honest look at what AI is changing about work and careers.">
   <div class="page-title">
     <h1>AI & Work</h1>
     <p>Not hype, not panic. What's actually changing, and what it means for careers.</p>
