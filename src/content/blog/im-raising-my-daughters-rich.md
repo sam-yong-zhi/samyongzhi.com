@@ -1,8 +1,11 @@
 ---
-title: "I'm Raising My Daughters Rich"
-date: 2026-02-22
-categories: [parenting]
-description: "On 富养女, Jonathan Haidt, and what I'm trying to build in my daughters before the phones arrive."
+title: I'm Raising My Daughters Rich
+date: '2026-02-22'
+categories:
+  - parenting
+description: >-
+  On 富养女, Jonathan Haidt, and what I'm trying to build in my daughters before
+  the phones arrive.
 draft: false
 ---
 
@@ -10,7 +13,7 @@ A few months ago, I was talking to another parent at school pickup. We got onto 
 
 The shrug I got back was polite. But it was a shrug.
 
-I didn't push it. But I went home thinking about it, because I realized I'd never actually articulated why we made those choices. Not in a way that would make sense to someone optimizing for PSLE.
+I didn't push it. But I went home thinking about it, because I realized I'd never actually articulated why we made those choices. Not in a way that would make sense to someone optimizing for final year exams.
 
 We're not *not* doing math and English. We do those too. But we're also solving for something else. And this is my attempt to explain what that something else is.
 
