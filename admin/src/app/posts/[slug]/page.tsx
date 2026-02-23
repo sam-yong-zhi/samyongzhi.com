@@ -5,7 +5,7 @@ import { getSession } from '@/lib/session'
 import { readBlogFile, decodeContent, writeBlogFile } from '@/lib/github'
 import { parsePost, serializePost } from '@/lib/frontmatter'
 import { Header } from '@/components/Header'
-import { MarkdownEditor } from '@/components/MarkdownEditor'
+import { TipTapEditor } from '@/components/TipTapEditor'
 
 const ALL_CATEGORIES = [
   { value: 'parenting', label: 'Parenting' },
@@ -187,7 +187,7 @@ export default async function EditPostPage({ params, searchParams }: Props) {
 
           <div>
             <label style={labelStyle}>Content</label>
-            <MarkdownEditor defaultValue={body} />
+            <TipTapEditor defaultValue={body} />
           </div>
 
           <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
