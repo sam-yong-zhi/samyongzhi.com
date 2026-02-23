@@ -49,6 +49,32 @@ export function decodeContent(base64: string): string {
   return Buffer.from(base64.replace(/\n/g, ''), 'base64').toString('utf-8')
 }
 
+export async function createBlogFile(
+  token: string,
+  filename: string,
+  content: string
+): Promise<void> {
+  const encodedContent = Buffer.from(content, 'utf-8').toString('base64')
+  const res = await fetch(
+    `${BASE}/repos/${OWNER}/${REPO}/contents/${BLOG_PATH}/${filename}`,
+    {
+      method: 'PUT',
+      headers: { ...headers(token), 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: `Create ${filename}`,
+        content: encodedContent,
+        branch: 'main',
+      }),
+    }
+  )
+  if (!res.ok) {
+    const err = await res.json()
+    const error = new Error(`GitHub create failed: ${res.status} — ${err.message}`) as Error & { status: number }
+    error.status = res.status
+    throw error
+  }
+}
+
 export async function writeBlogFile(
   token: string,
   filename: string,

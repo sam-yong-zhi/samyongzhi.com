@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getSession } from '@/lib/session'
 import { listBlogFiles, readBlogFile, decodeContent } from '@/lib/github'
 import { parsePost } from '@/lib/frontmatter'
+import { Header } from '@/components/Header'
 
 const CATEGORY_LABELS: Record<string, string> = {
   parenting: 'Parenting',
@@ -31,23 +32,17 @@ export default async function PostsPage() {
 
   return (
     <>
-      <header>
-        <div className="container">
-          <Link href="/posts" className="site-title" style={{ textDecoration: 'none' }}>
-            Blog Admin
-          </Link>
-          <form action="/api/logout" method="POST">
-            <button type="submit" className="btn" style={{ fontSize: '0.85rem' }}>
-              Sign out
-            </button>
-          </form>
-        </div>
-      </header>
+      <Header />
 
       <main className="container">
-        <h1 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '1.5rem' }}>
-          Posts
-        </h1>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', gap: '1rem' }}>
+          <h1 style={{ fontSize: '1.25rem', fontWeight: 600 }}>
+            Posts
+          </h1>
+          <Link href="/posts/new" className="btn btn-primary" style={{ fontSize: '0.9rem' }}>
+            New post
+          </Link>
+        </div>
 
         <div style={{ borderTop: '1px solid var(--border)' }}>
           {posts.map(({ slug, frontmatter }) => (
