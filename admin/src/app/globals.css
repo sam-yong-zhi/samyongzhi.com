@@ -1,0 +1,148 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #666666;
+  --border: #e0e0e0;
+  --accent: #1a1a1a;
+  --success: #2d6a4f;
+  --error: #c1121f;
+  --draft-bg: #fff3cd;
+  --draft-text: #856404;
+  --published-bg: #d1fae5;
+  --published-text: #065f46;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111;
+    --text: #f0f0f0;
+    --muted: #999999;
+    --border: #333333;
+    --accent: #f0f0f0;
+    --draft-bg: #3d2f00;
+    --draft-text: #fcd34d;
+    --published-bg: #052e16;
+    --published-text: #86efac;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .site-title {
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: opacity 0.15s;
+}
+
+.btn:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.badge-draft {
+  background: var(--draft-bg);
+  color: var(--draft-text);
+}
+
+.badge-published {
+  background: var(--published-bg);
+  color: var(--published-text);
+}
+
+.badge-category {
+  background: var(--border);
+  color: var(--muted);
+}
+
+.alert {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.alert-success {
+  background: var(--published-bg);
+  color: var(--published-text);
+}
+
+.alert-error {
+  background: #fee2e2;
+  color: var(--error);
+}
+
+@media (prefers-color-scheme: dark) {
+  .alert-error {
+    background: #3d0000;
+    color: #fca5a5;
+  }
+}
