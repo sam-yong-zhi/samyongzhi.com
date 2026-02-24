@@ -1,22 +1,25 @@
 ---
-title: "I Chose a Government Flat Over a Condo. Here's What I Got Instead."
-date: 2026-02-08
-categories: [money]
-description: "Everyone I know has a condo. I bought an HDB flat instead. Three ideas from Morgan Housel helped me understand why that was the right call and what I actually got in return."
+title: I Chose a Government Flat Over a Condo. Here's What I Got Instead.
+date: '2026-02-08'
+categories:
+  - money
+description: >-
+  Everyone I know has a condo. I bought a government flat instead. Three ideas
+  from Morgan Housel helped me understand why that was the right call and what I
+  actually got in return.
 draft: false
 ---
-
 I'll be honest. There are moments, scrolling through Instagram or catching up with old colleagues, where I feel it. The quiet sting of wondering if I made the right call.
 
-Everyone I know has a condo. Some have upgraded from a regular sedan to a BMW or Mercedes. Swimming pools for the kids on weekends. Function rooms for birthday parties. On paper, they're doing better than me. And for a long time, that paper comparison was the only one I was running.
+Everyone I know has a private apartment. Some have upgraded from a regular sedan to a BMW or Mercedes. Swimming pools for the kids on weekends. Function rooms for birthday parties. On paper, they're doing better than me. And for a long time, that paper comparison was the only one I was running.
 
-I've been reading Morgan Housel for a few years now. *The Psychology of Money*, *Same as Ever*, and his newest, *The Art of Spending Money*. No finance writer has made me think harder about what money is actually for. Three ideas in particular have quietly rewired how I make decisions. I want to share them here, not as advice, but as a record of how I've tried to apply them. For anyone navigating similar choices. And eventually, for my daughters to read when they're older.
+I've been reading Morgan Housel for a few years now. _The Psychology of Money_, _Same as Ever_, and his newest, _The Art of Spending Money_. No finance writer has made me think harder about what money is actually for. Three ideas in particular have quietly rewired how I make decisions. I want to share them here, not as advice, but as a record of how I've tried to apply them. For anyone navigating similar choices. And eventually, for my daughters to read when they're older.
 
 ## Define "enough" before someone else defines it for you
 
-In late 2022, my wife and I bought a five-room HDB flat in Singapore. For international readers: HDB flats are government-built public housing. The vast majority of Singaporeans live in them. They're practical, well-located, and carry a quiet social stigma among a certain class of professionals who've "moved on" to private property.
+In late 2022, my wife and I bought a five-room HDB flat in Singapore. For international readers, HDB flats are government-built public housing, and the "five-room" label is misleadingly grand: it actually means three bedrooms, a living room, and a dining area. The vast majority of Singaporeans live in them. They're practical, well-located, and carry a quiet social stigma among a certain class of professionals who've "moved on" to private property.
 
-We could have stretched. The mortgage on a condo was serviceable, uncomfortable, but doable. Most of my peers made that stretch without blinking.
+We could have stretched. The mortgage on an apartment or condo was serviceable but doable. Most of my peers made that stretch.
 
 We didn't. We bought the flat at roughly half the monthly mortgage repayment and half the downpayment of what a condo would have cost. The money we didn't lock into property went into stocks instead. Over three years, those investments have compounded and, critically, they're liquid. A condo would likely have generated more paper gains. But paper gains don't pay school fees if I lose my job tomorrow.
 
@@ -30,7 +33,7 @@ I spent several years in investment banking. Every six months, without fail, col
 
 That kind of uncertainty does something to you over time. A low hum of anxiety underneath everything. You're always half-managing the risk of the floor disappearing.
 
-What I do now is different. Working in enterprise AI at a tech company, my value is less about individual output and more about orchestrating complex networks of stakeholders. That's harder to cut. But I never forgot what the IB years felt like, and I never wanted to be that exposed again.
+What I do now is different. Working in enterprise AI at a tech company, my value is less about individual output and more about orchestrating complex projects and managing a network of stakeholders. That's harder to make redundant. But I never forgot what the investment banking years felt like, and I never wanted to be that exposed again.
 
 Housel's argument is that controlling your time is the highest form of wealth. Not the car, not the postcode. The ability to wake up and not have your entire life contingent on a single income source that could disappear tomorrow.
 
@@ -48,11 +51,11 @@ The direct cost replacement is straightforward. A live-in helper in Singapore ru
 
 But the part that surprised me more is the enrichment multiplier.
 
-We spend around S$1,500 a month on enrichment for both girls combined. Piano, Chinese, public speaking. These aren't cheap. And every parent I know who sends their kids to similar programmes is spending roughly the same.
+We spend around S$1,500 a month on enrichment for both girls combined. Piano, Chinese, Chinese dance, public speaking. These aren't cheap. And every parent I know who sends their kids to similar programmes is spending roughly the same.
 
 Here's the difference. You can write the cheque and have a helper send the kids to the weekly lesson. That's it. To actually get the return on that investment, you need daily practice, daily revision, preparation before the next class. A child who attends piano once a week without practising between sessions retains a fraction of what they could. My wife does that daily follow-up. She supervises the practice, checks the homework, keeps the routine.
 
-My rough estimate is that consistent daily reinforcement gets you 70 to 80 percent of the value from any given enrichment programme. Without it, you're probably extracting 20 to 25 percent. On S$1,500 of monthly spend, that gap is enormous. We're not spending more than our peers. We're getting three times the return on the same spend.
+My rough estimate is that consistent daily reinforcement gets you 80 to 100 percent of the value from any given enrichment programme. Without it, you're probably extracting 20 to 25 percent. On S$1,500 of monthly spend, that gap is enormous. We're not spending more than our peers. We're getting three times the return on the same spend.
 
 Homemakers are the unsung heroes of the family. The contribution is real, it compounds, and it almost never gets acknowledged because it doesn't come with a salary slip.
 
@@ -66,7 +69,7 @@ But here's where the money went instead. A family car in Singapore, factoring in
 
 In the last few years, we've taken our daughters to Hong Kong, Macau, Tokyo, Osaka, Seoul, Malaysia, and Indonesia. We've sailed on Royal Caribbean. We did a staycation at Shangri-La Sentosa. We're booked on a Disney cruise in March.
 
-Housel writes about compounding memories — the idea that trading money for time and shared experiences compounds in ways that are just as powerful as financial compounding, just harder to see on a spreadsheet. I think about that every time we're sitting somewhere new, watching our daughters figure out a city they've never been to before.
+Housel writes about compounding memories, the idea that trading money for time and shared experiences compounds in ways that are just as powerful as financial compounding, just harder to see on a spreadsheet. I think about that every time we're sitting somewhere new, watching our daughters figure out a city they've never been to before.
 
 The road trip conversations didn't happen. The airport conversations did. I don't think we made a perfect trade. I think we made a deliberate one.
 
