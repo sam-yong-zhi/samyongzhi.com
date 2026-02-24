@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SubscribeForm from '../components/SubscribeForm.astro';
+---
+
+<BaseLayout
+  title="Subscribe"
+  description="Get new posts by email covering AI-aware parenting, family finance, and intentional living."
+>
+  <div class="subscribe-page">
+    <h1>Subscribe</h1>
+    <p>
+      I write about raising kids alongside AI, building family wealth on a single income, and making deliberate 
+      choices about how we spend our time and money. No newsletters, no roundups. New posts only, straight to 
+      your inbox. Drop your email below.
+    </p>
+    <SubscribeForm />
+  </div>
+</BaseLayout>
+
+<style>
+  .subscribe-page {
+    max-width: var(--max-w);
+    padding-top: 2rem;
+  }
+
+  .subscribe-page h1 {
+    margin-bottom: 1rem;
+  }
+
+  .subscribe-page p {
+    color: var(--muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+</style>

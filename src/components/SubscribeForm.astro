@@ -1,0 +1,137 @@
+<div class="subscribe-form">
+  <p class="subscribe-prompt">Enjoyed this? Get new posts by email.</p>
+  <form class="subscribe-fields">
+    <input
+      type="email"
+      name="email_address"
+      placeholder="you@example.com"
+      required
+      autocomplete="email"
+    />
+    <button type="submit">Subscribe</button>
+  </form>
+  <p class="subscribe-msg subscribe-msg--success" hidden>You're in. Check your inbox for a confirmation email. If it lands in spam, mark it as not spam and you'll be all set.</p>
+  <p class="subscribe-msg subscribe-msg--error" hidden>Something went wrong. Try again.</p>
+</div>
+
+<style>
+  .subscribe-form {
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    padding-top: 2rem;
+    font-family: var(--font-sans);
+  }
+
+  .subscribe-prompt {
+    margin: 0 0 0.875rem;
+    color: var(--muted);
+    font-size: 0.925rem;
+  }
+
+  .subscribe-fields {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .subscribe-fields input[type="email"] {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.925rem;
+    font-family: var(--font-sans);
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .subscribe-fields input[type="email"]:focus {
+    border-color: var(--muted);
+  }
+
+  .subscribe-fields button {
+    padding: 0.5rem 1rem;
+    font-size: 0.925rem;
+    font-family: var(--font-sans);
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s, color 0.15s;
+  }
+
+  .subscribe-fields button:hover {
+    border-color: var(--muted);
+  }
+
+  .subscribe-fields button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .subscribe-msg {
+    margin: 0.75rem 0 0;
+    font-size: 0.925rem;
+  }
+
+  .subscribe-msg--success {
+    color: var(--muted);
+  }
+
+  .subscribe-msg--error {
+    color: #c0392b;
+  }
+
+  [data-theme="dark"] .subscribe-msg--error {
+    color: #e07070;
+  }
+
+  @media (max-width: 640px) {
+    .subscribe-fields {
+      flex-direction: column;
+    }
+
+    .subscribe-fields button {
+      width: 100%;
+    }
+  }
+</style>
+
+<script>
+  const wrapper = document.querySelector('.subscribe-form') as HTMLElement;
+  const form = wrapper?.querySelector('.subscribe-fields') as HTMLFormElement;
+  const btn = form?.querySelector('button') as HTMLButtonElement;
+  const successMsg = wrapper?.querySelector('.subscribe-msg--success') as HTMLElement;
+  const errorMsg = wrapper?.querySelector('.subscribe-msg--error') as HTMLElement;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = (form.querySelector('input[name="email_address"]') as HTMLInputElement).value;
+
+    btn.disabled = true;
+    btn.textContent = 'Subscribing\u2026';
+    errorMsg.hidden = true;
+
+    try {
+      const res = await fetch('https://app.kit.com/forms/9126547/subscriptions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ email_address: email }).toString(),
+      });
+
+      if (res.ok) {
+        btn.textContent = 'Subscribed';
+        successMsg.hidden = false;
+      } else {
+        throw new Error('non-2xx');
+      }
+    } catch {
+      errorMsg.hidden = false;
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    }
+  });
+</script>

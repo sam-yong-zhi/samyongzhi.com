@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import CategoryBadge from '../components/CategoryBadge.astro';
+import SubscribeForm from '../components/SubscribeForm.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -28,4 +29,5 @@ const formattedDate = date.toLocaleDateString('en-US', {
       <slot />
     </div>
   </article>
+  <SubscribeForm />
 </BaseLayout>
