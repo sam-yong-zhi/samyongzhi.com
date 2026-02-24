@@ -1,11 +1,11 @@
 ---
 import { getCollection, render } from 'astro:content';
-import PostLayout from '../../layouts/PostLayout.astro';
+import PostLayout from '../../../layouts/PostLayout.astro';
 
 export async function getStaticPaths() {
   function idToSlug(id: string) { return id.replace(/\.(en|id)\.md$/, ''); }
   const posts = await getCollection('blog', (post) =>
-    !post.data.draft && post.id.endsWith('.en.md')
+    !post.data.draft && post.id.endsWith('.id.md')
   );
   return posts.map((post) => ({
     params: { slug: idToSlug(post.id) },

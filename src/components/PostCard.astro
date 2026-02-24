@@ -4,9 +4,12 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   post: CollectionEntry<'blog'>;
+  lang?: 'en' | 'id';
 }
 
-const { post } = Astro.props;
+function idToSlug(id: string) { return id.replace(/\.(en|id)\.md$/, ''); }
+
+const { post, lang = 'en' } = Astro.props;
 const { title, date, categories, description } = post.data;
 
 const formattedDate = date.toLocaleDateString('en-US', {
@@ -14,10 +17,14 @@ const formattedDate = date.toLocaleDateString('en-US', {
   month: 'long',
   day: 'numeric',
 });
+
+const href = lang === 'id'
+  ? `/id/blog/${idToSlug(post.id)}`
+  : `/blog/${idToSlug(post.id)}`;
 ---
 
 <article class="post-card">
-  <a href={`/blog/${post.slug}`} class="post-card__title">{title}</a>
+  <a href={href} class="post-card__title">{title}</a>
   <div class="post-card__meta">
     <time datetime={date.toISOString()}>{formattedDate}</time>
     {categories.map((cat) => <CategoryBadge category={cat} />)}
