@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SubscribeForm from '../../components/SubscribeForm.astro';
+---
+
+<BaseLayout
+  title="Langganan"
+  description="Dapatkan tulisan baru lewat email — tentang parenting sadar AI, keuangan keluarga, dan pilihan hidup yang disengaja."
+  lang="id"
+  langToggle={{ en: '/subscribe', id: '', active: 'id' }}
+>
+  <div class="subscribe-page">
+    <h1>Langganan</h1>
+    <p>
+      Aku menulis tentang membesarkan anak di era AI, membangun kekayaan keluarga dengan satu penghasilan, dan membuat
+      pilihan yang disengaja tentang bagaimana kita menghabiskan waktu dan uang. Tidak ada newsletter mingguan,
+      tidak ada rangkuman. Hanya postingan baru, langsung ke inbox-mu. Masukkan emailmu di bawah.
+    </p>
+    <SubscribeForm lang="id" />
+  </div>
+</BaseLayout>
+
+<style>
+  .subscribe-page {
+    max-width: var(--max-w);
+    padding-top: 2rem;
+  }
+
+  .subscribe-page h1 {
+    margin-bottom: 1rem;
+  }
+
+  .subscribe-page p {
+    color: var(--muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+</style>

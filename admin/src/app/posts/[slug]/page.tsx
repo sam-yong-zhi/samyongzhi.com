@@ -2,7 +2,7 @@
 
 import { redirect } from 'next/navigation'
 import { getSession } from '@/lib/session'
-import { readBlogFile, decodeContent, writeBlogFile } from '@/lib/github'
+import { listBlogFiles, readBlogFile, decodeContent, writeBlogFile, createBlogFile } from '@/lib/github'
 import { parsePost, serializePost } from '@/lib/frontmatter'
 import { Header } from '@/components/Header'
 import { TipTapEditor } from '@/components/TipTapEditor'
@@ -15,13 +15,14 @@ const ALL_CATEGORIES = [
 
 type Props = {
   params: Promise<{ slug: string }>
-  searchParams: Promise<{ saved?: string; error?: string }>
+  searchParams: Promise<{ lang?: string; saved?: string; error?: string }>
 }
 
 async function savePost(formData: FormData) {
   'use server'
   const session = await getSession()
   const slug = formData.get('slug') as string
+  const lang = (formData.get('lang') as string) || 'en'
   const sha = formData.get('sha') as string
   const title = formData.get('title') as string
   const date = formData.get('date') as string
@@ -32,18 +33,19 @@ async function savePost(formData: FormData) {
 
   try {
     const raw = serializePost({ title, date, categories, description, draft }, body)
-    await writeBlogFile(session.token, `${slug}.md`, raw, sha)
+    await writeBlogFile(session.token, `${slug}.${lang}.md`, raw, sha)
   } catch (err) {
     const status = (err as { status?: number }).status
-    redirect(`/posts/${slug}?error=${status === 409 ? 'conflict' : 'save_failed'}`)
+    redirect(`/posts/${slug}?lang=${lang}&error=${status === 409 ? 'conflict' : 'save_failed'}`)
   }
-  redirect(`/posts/${slug}?saved=true`)
+  redirect(`/posts/${slug}?lang=${lang}&saved=true`)
 }
 
 async function publishPost(formData: FormData) {
   'use server'
   const session = await getSession()
   const slug = formData.get('slug') as string
+  const lang = (formData.get('lang') as string) || 'en'
   const sha = formData.get('sha') as string
   const title = formData.get('title') as string
   const date = formData.get('date') as string
@@ -53,18 +55,19 @@ async function publishPost(formData: FormData) {
 
   try {
     const raw = serializePost({ title, date, categories, description, draft: false }, body)
-    await writeBlogFile(session.token, `${slug}.md`, raw, sha)
+    await writeBlogFile(session.token, `${slug}.${lang}.md`, raw, sha)
   } catch (err) {
     const status = (err as { status?: number }).status
-    redirect(`/posts/${slug}?error=${status === 409 ? 'conflict' : 'save_failed'}`)
+    redirect(`/posts/${slug}?lang=${lang}&error=${status === 409 ? 'conflict' : 'save_failed'}`)
   }
-  redirect(`/posts/${slug}?saved=true`)
+  redirect(`/posts/${slug}?lang=${lang}&saved=true`)
 }
 
 async function unpublishPost(formData: FormData) {
   'use server'
   const session = await getSession()
   const slug = formData.get('slug') as string
+  const lang = (formData.get('lang') as string) || 'en'
   const sha = formData.get('sha') as string
   const title = formData.get('title') as string
   const date = formData.get('date') as string
@@ -74,27 +77,58 @@ async function unpublishPost(formData: FormData) {
 
   try {
     const raw = serializePost({ title, date, categories, description, draft: true }, body)
-    await writeBlogFile(session.token, `${slug}.md`, raw, sha)
+    await writeBlogFile(session.token, `${slug}.${lang}.md`, raw, sha)
   } catch (err) {
     const status = (err as { status?: number }).status
-    redirect(`/posts/${slug}?error=${status === 409 ? 'conflict' : 'save_failed'}`)
+    redirect(`/posts/${slug}?lang=${lang}&error=${status === 409 ? 'conflict' : 'save_failed'}`)
   }
-  redirect(`/posts/${slug}?saved=true`)
+  redirect(`/posts/${slug}?lang=${lang}&saved=true`)
+}
+
+async function createIdVersion(formData: FormData) {
+  'use server'
+  const session = await getSession()
+  const slug = formData.get('slug') as string
+  const raw = await readBlogFile(session.token, `${slug}.en.md`)
+  const decoded = decodeContent(raw.content)
+  const { frontmatter } = parsePost(decoded)
+  const idRaw = serializePost({ ...frontmatter, draft: true }, '')
+  try {
+    await createBlogFile(session.token, `${slug}.id.md`, idRaw)
+  } catch (err) {
+    const status = (err as { status?: number }).status
+    redirect(`/posts/${slug}?lang=en&error=${status === 422 ? 'id_exists' : 'create_id_failed'}`)
+  }
+  redirect(`/posts/${slug}?lang=id`)
 }
 
 export default async function EditPostPage({ params, searchParams }: Props) {
   const { slug } = await params
-  const { saved, error } = await searchParams
-  const filename = `${slug}.md`
+  const { lang: langParam = 'en', saved, error } = await searchParams
+  const lang = langParam === 'id' ? 'id' : 'en'
 
+  // Try to read the language-specific file; fall back to legacy .md for graceful handling
+  let filename = `${slug}.${lang}.md`
   const session = await getSession()
-  const raw = await readBlogFile(session.token, filename)
+  let raw: Awaited<ReturnType<typeof readBlogFile>>
+  try {
+    raw = await readBlogFile(session.token, filename)
+  } catch {
+    // Fallback for legacy .md files (no language infix)
+    filename = `${slug}.md`
+    raw = await readBlogFile(session.token, filename)
+  }
   const decoded = decodeContent(raw.content)
   const { frontmatter, body } = parsePost(decoded)
 
+  const allFiles = await listBlogFiles(session.token)
+  const hasIdFile = allFiles.some(f => f.name === `${slug}.id.md`)
+
   const errorMessages: Record<string, string> = {
-    conflict: 'The file was modified elsewhere. Reload to get the latest version and try again.',
+    conflict: 'The file was modified elsewhere. Reload and try again.',
     save_failed: 'Save failed. Please try again.',
+    id_exists: 'An Indonesian version already exists.',
+    create_id_failed: 'Failed to create Indonesian version. Please try again.',
   }
 
   return (
@@ -106,6 +140,39 @@ export default async function EditPostPage({ params, searchParams }: Props) {
           <a href="/posts" style={{ fontSize: '0.9rem', color: 'var(--muted)' }}>
             ← All posts
           </a>
+        </div>
+
+        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
+          <a
+            href={`/posts/${slug}?lang=en`}
+            className={`btn ${lang === 'en' ? 'btn-primary' : ''}`}
+            style={{ fontSize: '0.875rem', padding: '0.35rem 0.9rem' }}
+          >
+            EN
+          </a>
+          {hasIdFile
+            ? (
+              <a
+                href={`/posts/${slug}?lang=id`}
+                className={`btn ${lang === 'id' ? 'btn-primary' : ''}`}
+                style={{ fontSize: '0.875rem', padding: '0.35rem 0.9rem' }}
+              >
+                ID
+              </a>
+            )
+            : (
+              <form action={createIdVersion} style={{ display: 'inline' }}>
+                <input type="hidden" name="slug" value={slug} />
+                <button
+                  type="submit"
+                  className="btn"
+                  style={{ fontSize: '0.875rem', padding: '0.35rem 0.9rem' }}
+                >
+                  + Create Indonesian version
+                </button>
+              </form>
+            )
+          }
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.25rem' }}>
@@ -129,6 +196,7 @@ export default async function EditPostPage({ params, searchParams }: Props) {
 
         <form style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
           <input type="hidden" name="slug" value={slug} />
+          <input type="hidden" name="lang" value={lang} />
           <input type="hidden" name="sha" value={raw.sha} />
           {/* Preserve current draft status for the Save button */}
           <input type="hidden" name="draft" value={frontmatter.draft ? 'on' : 'off'} />

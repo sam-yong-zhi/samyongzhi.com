@@ -7,16 +7,26 @@ export async function getStaticPaths() {
   const posts = await getCollection('blog', (post) =>
     !post.data.draft && post.id.endsWith('.id.md')
   );
-  return posts.map((post) => ({
-    params: { slug: idToSlug(post.id) },
-    props: { post },
-  }));
+  return posts.map((post) => {
+    const slug = idToSlug(post.id);
+    return {
+      params: { slug },
+      props: {
+        post,
+        langToggle: {
+          en: `/blog/${slug}`,
+          id: '',
+          active: 'id' as const,
+        },
+      },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, langToggle } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<PostLayout post={post}>
+<PostLayout post={post} langToggle={langToggle}>
   <Content />
 </PostLayout>

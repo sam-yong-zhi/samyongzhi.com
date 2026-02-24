@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.id.md') && post.data.categories.includes('ai-and-work'));
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="AI & Karier"
+  description="Bukan hype, bukan panik. Apa yang sebenarnya berubah, dan artinya bagi karier."
+  lang="id"
+  langToggle={{ en: '/ai-and-work', id: '', active: 'id' }}
+>
+  <div class="page-title">
+    <h1>AI & Karier</h1>
+    <p>Bukan hype, bukan panik. Apa yang sebenarnya berubah, dan artinya bagi karier.</p>
+  </div>
+
+  <ul class="filter-bar">
+    <li><a href="/id/blog">Semua</a></li>
+    <li><a href="/id/parenting">Parenting</a></li>
+    <li><a href="/id/money">Keuangan</a></li>
+    <li><a href="/id/ai-and-work" class="active">AI & Karier</a></li>
+  </ul>
+
+  <div class="post-list">
+    {posts.map((post) => <PostCard post={post} lang="id" />)}
+  </div>
+</BaseLayout>

@@ -1,17 +1,50 @@
-<div class="subscribe-form">
-  <p class="subscribe-prompt">Enjoyed this? Get new posts by email.</p>
+---
+interface Props {
+  lang?: 'en' | 'id';
+}
+const { lang = 'en' } = Astro.props;
+
+const formUrl = lang === 'id'
+  ? 'https://app.kit.com/forms/62ff4b45f3/subscriptions'
+  : 'https://app.kit.com/forms/9126547/subscriptions';
+
+const promptText = lang === 'id'
+  ? 'Suka tulisan ini? Dapatkan postingan baru lewat email.'
+  : 'Enjoyed this? Get new posts by email.';
+
+const btnText = lang === 'id' ? 'Langganan' : 'Subscribe';
+const subscribingText = lang === 'id' ? 'Mendaftar\u2026' : 'Subscribing\u2026';
+const subscribedText = lang === 'id' ? 'Terdaftar' : 'Subscribed';
+const placeholder = lang === 'id' ? 'kamu@contoh.com' : 'you@example.com';
+
+const successText = lang === 'id'
+  ? 'Kamu sudah terdaftar. Cek inbox-mu untuk email konfirmasi. Kalau masuk spam, tandai bukan spam dan kamu siap.'
+  : "You're in. Check your inbox for a confirmation email. If it lands in spam, mark it as not spam and you'll be all set.";
+
+const errorText = lang === 'id'
+  ? 'Ada yang salah. Coba lagi.'
+  : 'Something went wrong. Try again.';
+---
+
+<div
+  class="subscribe-form"
+  data-form-url={formUrl}
+  data-subscribing={subscribingText}
+  data-subscribed={subscribedText}
+>
+  <p class="subscribe-prompt">{promptText}</p>
   <form class="subscribe-fields">
     <input
       type="email"
       name="email_address"
-      placeholder="you@example.com"
+      placeholder={placeholder}
       required
       autocomplete="email"
     />
-    <button type="submit">Subscribe</button>
+    <button type="submit">{btnText}</button>
   </form>
-  <p class="subscribe-msg subscribe-msg--success" hidden>You're in. Check your inbox for a confirmation email. If it lands in spam, mark it as not spam and you'll be all set.</p>
-  <p class="subscribe-msg subscribe-msg--error" hidden>Something went wrong. Try again.</p>
+  <p class="subscribe-msg subscribe-msg--success" hidden>{successText}</p>
+  <p class="subscribe-msg subscribe-msg--error" hidden>{errorText}</p>
 </div>
 
 <style>
@@ -107,23 +140,28 @@
   const successMsg = wrapper?.querySelector('.subscribe-msg--success') as HTMLElement;
   const errorMsg = wrapper?.querySelector('.subscribe-msg--error') as HTMLElement;
 
+  const formUrl = wrapper?.dataset.formUrl ?? 'https://app.kit.com/forms/9126547/subscriptions';
+  const subscribingText = wrapper?.dataset.subscribing ?? 'Subscribing\u2026';
+  const subscribedText = wrapper?.dataset.subscribed ?? 'Subscribed';
+
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const email = (form.querySelector('input[name="email_address"]') as HTMLInputElement).value;
+    const originalBtnText = btn.textContent;
 
     btn.disabled = true;
-    btn.textContent = 'Subscribing\u2026';
+    btn.textContent = subscribingText;
     errorMsg.hidden = true;
 
     try {
-      const res = await fetch('https://app.kit.com/forms/9126547/subscriptions', {
+      const res = await fetch(formUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({ email_address: email }).toString(),
       });
 
       if (res.ok) {
-        btn.textContent = 'Subscribed';
+        btn.textContent = subscribedText;
         successMsg.hidden = false;
       } else {
         throw new Error('non-2xx');
@@ -131,7 +169,7 @@
     } catch {
       errorMsg.hidden = false;
       btn.disabled = false;
-      btn.textContent = 'Subscribe';
+      btn.textContent = originalBtnText;
     }
   });
 </script>

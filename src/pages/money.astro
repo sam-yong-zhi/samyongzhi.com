@@ -7,7 +7,7 @@ const allPosts = await getCollection('blog', (post) => !post.data.draft && post.
 const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<BaseLayout title="Money" description="Practical thinking about building financial security for a family.">
+<BaseLayout title="Money" description="Practical thinking about building financial security for a family." langToggle={{ en: '', id: '/id/money', active: 'en' }}>
   <div class="page-title">
     <h1>Money</h1>
     <p>Practical thinking about building financial security for a family.</p>

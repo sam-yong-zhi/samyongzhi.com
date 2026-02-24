@@ -32,7 +32,7 @@ async function createPost(formData: FormData) {
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
 
-  const filename = `${slug}.md`
+  const filename = `${slug}.en.md`
   const raw = serializePost({ title, date, categories, description: '', draft: true }, '')
 
   try {
@@ -45,7 +45,7 @@ async function createPost(formData: FormData) {
     redirect(`/posts/new?error=create_failed`)
   }
 
-  redirect(`/posts/${slug}`)
+  redirect(`/posts/${slug}?lang=en`)
 }
 
 export default async function NewPostPage({ searchParams }: Props) {

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.id.md'));
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Blog"
+  description="Semua tulisan Sam Yong Zhi tentang parenting, keuangan, dan AI."
+  lang="id"
+  langToggle={{ en: '/blog', id: '', active: 'id' }}
+>
+  <div class="page-title">
+    <h1>Semua Tulisan</h1>
+  </div>
+
+  <ul class="filter-bar">
+    <li><a href="/id/blog" class="active">Semua</a></li>
+    <li><a href="/id/parenting">Parenting</a></li>
+    <li><a href="/id/money">Keuangan</a></li>
+    <li><a href="/id/ai-and-work">AI & Karier</a></li>
+  </ul>
+
+  <div class="post-list">
+    {posts.map((post) => <PostCard post={post} lang="id" />)}
+  </div>
+</BaseLayout>

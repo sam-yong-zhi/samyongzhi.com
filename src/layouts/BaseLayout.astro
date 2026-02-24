@@ -3,14 +3,24 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
+interface LangToggle {
+  en: string;
+  id: string | null;
+  active: 'en' | 'id';
+}
+
 interface Props {
   title: string;
   description?: string;
+  lang?: 'en' | 'id';
+  langToggle?: LangToggle;
 }
 
 const {
   title,
   description = "Father of twin girls trying to raise them for a world I can't fully predict. Writing about parenting, money, and AI.",
+  lang = 'en',
+  langToggle,
 } = Astro.props;
 
 const siteName = 'Sam Yong Zhi';
@@ -19,7 +29,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,7 +44,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     </script>
   </head>
   <body>
-    <Header />
+    <Header langToggle={langToggle} />
     <main>
       <div class="container">
         <slot />

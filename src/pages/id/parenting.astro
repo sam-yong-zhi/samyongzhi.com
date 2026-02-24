@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.id.md') && post.data.categories.includes('parenting'));
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Parenting"
+  description="Cerita jujur tentang membesarkan anak di dunia yang terus berubah."
+  lang="id"
+  langToggle={{ en: '/parenting', id: '', active: 'id' }}
+>
+  <div class="page-title">
+    <h1>Parenting</h1>
+    <p>Cerita jujur tentang membesarkan anak di dunia yang terus berubah.</p>
+  </div>
+
+  <ul class="filter-bar">
+    <li><a href="/id/blog">Semua</a></li>
+    <li><a href="/id/parenting" class="active">Parenting</a></li>
+    <li><a href="/id/money">Keuangan</a></li>
+    <li><a href="/id/ai-and-work">AI & Karier</a></li>
+  </ul>
+
+  <div class="post-list">
+    {posts.map((post) => <PostCard post={post} lang="id" />)}
+  </div>
+</BaseLayout>

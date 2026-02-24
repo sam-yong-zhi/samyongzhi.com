@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.id.md') && post.data.categories.includes('money'));
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Keuangan"
+  description="Pemikiran praktis tentang membangun keamanan finansial keluarga."
+  lang="id"
+  langToggle={{ en: '/money', id: '', active: 'id' }}
+>
+  <div class="page-title">
+    <h1>Keuangan</h1>
+    <p>Pemikiran praktis tentang membangun keamanan finansial keluarga.</p>
+  </div>
+
+  <ul class="filter-bar">
+    <li><a href="/id/blog">Semua</a></li>
+    <li><a href="/id/parenting">Parenting</a></li>
+    <li><a href="/id/money" class="active">Keuangan</a></li>
+    <li><a href="/id/ai-and-work">AI & Karier</a></li>
+  </ul>
+
+  <div class="post-list">
+    {posts.map((post) => <PostCard post={post} lang="id" />)}
+  </div>
+</BaseLayout>

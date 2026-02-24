@@ -4,21 +4,30 @@ import CategoryBadge from '../components/CategoryBadge.astro';
 import SubscribeForm from '../components/SubscribeForm.astro';
 import type { CollectionEntry } from 'astro:content';
 
-interface Props {
-  post: CollectionEntry<'blog'>;
+interface LangToggle {
+  en: string;
+  id: string | null;
+  active: 'en' | 'id';
 }
 
-const { post } = Astro.props;
+interface Props {
+  post: CollectionEntry<'blog'>;
+  langToggle?: LangToggle;
+}
+
+const { post, langToggle } = Astro.props;
 const { title, date, categories, description } = post.data;
 
-const formattedDate = date.toLocaleDateString('en-US', {
+const lang = post.id.endsWith('.id.md') ? 'id' : 'en';
+
+const formattedDate = date.toLocaleDateString(lang === 'id' ? 'id-ID' : 'en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} lang={lang} langToggle={langToggle}>
   <article>
     <header class="post-header">
       {categories.map((cat) => <CategoryBadge category={cat} />)}
@@ -29,5 +38,5 @@ const formattedDate = date.toLocaleDateString('en-US', {
       <slot />
     </div>
   </article>
-  <SubscribeForm />
+  <SubscribeForm lang={lang} />
 </BaseLayout>

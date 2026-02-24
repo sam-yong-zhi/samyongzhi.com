@@ -482,6 +482,41 @@ a:hover {
   line-height: 1.65;
 }
 
+/* ── Language toggle ─────────────────────── */
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.lang-toggle__sep {
+  color: var(--border);
+}
+
+.lang-toggle__active {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.lang-toggle__link {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.lang-toggle__link:hover {
+  color: var(--text);
+}
+
+.lang-toggle__disabled {
+  color: var(--border);
+  cursor: default;
+}
+
 /* ── Mobile ──────────────────────────────── */
 
 @media (max-width: 640px) {

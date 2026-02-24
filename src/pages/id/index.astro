@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.id.md'));
+const latestPosts = allPosts
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
+---
+
+<BaseLayout
+  title="Sam Yong Zhi"
+  description="Ayah dari anak kembar perempuan. Menulis tentang parenting, keuangan, dan AI."
+  lang="id"
+  langToggle={{ en: '/', id: '', active: 'id' }}
+>
+  <div class="hero">
+    <h1>Sam Yong Zhi</h1>
+    <p class="tagline">
+      Ayah dari anak kembar perempuan, mencoba membesarkan mereka untuk dunia yang
+      belum sepenuhnya bisa kuprediksi. Aku nulis soal parenting, keuangan, dan
+      apa yang AI sedang lakukan ke anak-anak kita dan karier kita.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <p class="section-heading">Terbaru</p>
+    <div class="post-list">
+      {latestPosts.map((post) => <PostCard post={post} lang="id" />)}
+    </div>
+  </div>
+
+  <div class="section-block">
+    <p class="section-heading">Topik</p>
+    <ul class="topics-nav">
+      <li><a href="/parenting">Parenting</a></li>
+      <li><a href="/money">Keuangan</a></li>
+      <li><a href="/ai-and-work">AI & Karier</a></li>
+    </ul>
+  </div>
+</BaseLayout>
