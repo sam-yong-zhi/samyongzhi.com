@@ -8,22 +8,21 @@ description: >-
   the phones arrive.
 draft: false
 ---
-
 A few months ago, I was talking to another parent at school pickup. We got onto the topic of enrichment, the usual Singapore conversation. Math, English, Chinese. I mentioned that my girls do public speaking, Chinese dance, and piano.
 
 The shrug I got back was polite. But it was a shrug.
 
 I didn't push it. But I went home thinking about it, because I realized I'd never actually articulated why we made those choices. Not in a way that would make sense to someone optimizing for final year exams.
 
-We're not *not* doing math and English. We do those too. But we're also solving for something else. And this is my attempt to explain what that something else is.
+We're not _not_ doing English and Chinese. We do those too. But we're also solving for something else. And this is my attempt to explain what that something else is.
 
 ## The book that shifted something
 
-Last year I read Jonathan Haidt's *The Anxious Generation*. If you're a parent of young children and you haven't read it, I'd put it high on the list.
+Last year I read Jonathan Haidt's _The Anxious Generation_. If you're a parent of young children and you haven't read it, I'd put it high on the list.
 
 Haidt's central argument is that smartphones and social media, introduced to kids around 2012, caused a measurable mental health crisis in adolescents. The data is uncomfortable. But the part that stopped me wasn't the overall trend. It was the asymmetry between boys and girls.
 
-Girls are hit significantly harder by social media specifically. The image-based comparison loops, the relational dynamics, and the always-on social environment are particularly toxic for adolescent girls. I read that section and thought about my two daughters, who are seven now. And I felt the particular alertness you feel when something shifts from being a general social problem to being *your* problem.
+Girls are hit significantly harder by social media specifically. The image-based comparison loops, the relational dynamics, and the always-on social environment are particularly toxic for adolescent girls. I read that section and thought about my two daughters, who are seven now. And I felt the particular alertness you feel when something shifts from being a general social problem to being _your_ problem.
 
 They're not on social media. But they will be. And the question that's been sitting with me since is: what do I build in them now, before that world arrives?
 
@@ -37,7 +36,7 @@ It sounds strange in English, and it's easy to misread as being about money. It'
 
 I'm going to save the sons piece for another time. I have a nephew arriving soon and that article is already forming in my head. This one is about daughters.
 
-The psychology behind 富养女 is actually well-supported by modern research, even if the people who coined the saying centuries ago wouldn't have used that language. Girls who grow up with secure, warm attachment, who feel genuinely chosen and valued at home, enter adolescence with an already-formed answer to a question that will follow them everywhere: *am I worth something?*
+The psychology behind 富养女 is actually well-supported by modern research, even if the people who coined the saying centuries ago wouldn't have used that language. Girls who grow up with secure, warm attachment, who feel genuinely chosen and valued at home, enter adolescence with an already-formed answer to a question that will follow them everywhere: _am I worth something?_
 
 They got that answer repeated to them in small, daily ways long before a phone ever entered the picture. So when social media arrives and starts running its comparison loops, they have a foundation. It stings but it doesn't destabilize them. Their identity isn't riding on the metrics.
 
@@ -47,11 +46,11 @@ The girl without that foundation enters the same environment hungry. She hasn't 
 
 I want to be specific about what abundance means in our house, because it's not a grand gesture kind of thing.
 
-It's showing up to their Chinese dance performance even when work is heavy. It's sitting with them after school and actually listening to what happened, not half-listening while checking my phone. It's making them feel like their dad finds them interesting, not just lovable in a generic parental way, but genuinely worth his time and attention.
+It's showing up to their dance performance even when work is heavy. It's sitting with them after school and actually listening to what happened, not half-listening while checking my phone. It's making them feel like their dad finds them interesting, not just lovable in a generic parental way, but genuinely worth his time and attention.
 
 My wife and I talk about this. So much of what we see in older girls, the seeking of attention from the wrong places, the tolerance of poor treatment, the hunger for external validation, traces back at least in part to a gap in early life. Not always. Families are complicated and every story is different. But often enough that we take it seriously.
 
-The father piece matters in a specific way that I've been thinking about more as they grow. A daughter's relationship with her father is essentially her first experience of how a man sees her. If that experience is consistent, *you are valued, you are interesting, you are worth my full attention*, she builds a reference point.
+The father piece matters in a specific way that I've been thinking about more as they grow. A daughter's relationship with her father is essentially her first experience of how a man sees her. If that experience is consistent, _you are valued, you are interesting, you are worth my full attention_, she builds a reference point.
 
 Later, when she encounters someone who is careless with her feelings or inconsistent with how he treats her, something in her will recognize the gap. That gap is protective. She has a baseline for what it actually feels like to be genuinely valued by a man. She doesn't have to guess.
 
@@ -71,7 +70,7 @@ These activities also started young, which matters. Confidence built through yea
 
 That's harder for an algorithm to touch.
 
----
+* * *
 
 I want to be clear that I'm documenting my own thinking here, not prescribing anyone else's approach. Families come in all shapes. Every child is different. What works in our household with twin daughters growing up in Singapore is not a universal blueprint.
 
