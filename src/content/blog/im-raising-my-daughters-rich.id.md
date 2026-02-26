@@ -9,78 +9,68 @@ description: >-
 draft: false
 ---
 
-Beberapa bulan lalu, aku ngobrol sama orang tua lain waktu jemput anak di sekolah. Topiknya masuk ke soal enrichment — percakapan khas Singapura. Matematika, Bahasa Inggris, Mandarin. Aku bilang anak-anakku ikut public speaking, tari Mandarin, dan piano.
+Beberapa bulan lalu, aku ngobrol sama orang tua lain waktu jemput anak di sekolah. Topiknya masuk ke soal enrichment, percakapan khas Singapura. Matematika, Bahasa Inggris, Mandarin. Aku bilang anak-anakku ikut public speaking, tari Mandarin, dan piano.
 
 Responnya sopan. Tapi itu cuma angkat bahu.
 
-Aku tidak memaksakan. Tapi pulang ke rumah aku terus memikirkannya, karena aku sadar aku belum pernah benar-benar menjelaskan kenapa kami membuat pilihan itu. Bukan dengan cara yang masuk akal bagi orang yang sedang optimasi untuk ujian akhir tahun.
+Aku nggak maksa. Tapi pulang ke rumah aku terus mikirinnya, karena aku sadar aku belum pernah beneran jelasin kenapa kami buat pilihan itu. Bukan dengan cara yang masuk akal buat orang yang lagi optimasi untuk ujian akhir tahun.
 
-Bukan berarti kami *tidak* mengerjakan matematika dan Bahasa Inggris. Kami juga melakukan itu. Tapi kami juga sedang memecahkan sesuatu yang lain. Dan ini adalah usahaku untuk menjelaskan apa itu.
+Bukan berarti kami nggak kerjain matematika dan Bahasa Inggris. Kami juga lakuin itu. Tapi kami juga lagi mecahin sesuatu yang lain. Dan ini adalah usahaku untuk jelasin apa itu.
 
-## Buku yang mengubah cara pandangku
+Tahun lalu aku baca The Anxious Generation karya Jonathan Haidt. Kalau kamu orang tua dengan anak kecil dan belum bacanya, aku taruh itu di urutan teratas daftar bacaan.
 
-Tahun lalu aku membaca *The Anxious Generation* karya Jonathan Haidt. Kalau kamu orang tua dengan anak kecil dan belum membacanya, aku akan taruh itu di urutan teratas daftar bacaan.
+Argumen utama Haidt adalah bahwa smartphone dan media sosial, yang mulai dikenalkan ke anak-anak sekitar tahun 2012, nyebabin krisis kesehatan mental yang terukur pada remaja. Datanya nggak enak dibaca. Tapi bagian yang bikin aku berhenti sejenak bukan tren keseluruhannya. Melainkan asimetrinya antara anak laki-laki dan perempuan.
 
-Argumen utama Haidt adalah bahwa smartphone dan media sosial, yang mulai diperkenalkan ke anak-anak sekitar tahun 2012, menyebabkan krisis kesehatan mental yang terukur pada remaja. Datanya tidak nyaman untuk dibaca. Tapi bagian yang membuatku berhenti sejenak bukan tren keseluruhannya. Melainkan asimetrinya antara anak laki-laki dan perempuan.
+Anak perempuan jauh lebih terdampak oleh media sosial secara spesifik. Loop perbandingan berbasis gambar, dinamika relasional, dan lingkungan sosial yang selalu aktif sangat beracun buat remaja perempuan. Aku baca bagian itu dan mikirinnya tentang dua anak perempuanku yang sekarang umur tujuh tahun. Dan aku ngerasain kewaspadaan khusus yang kamu rasain waktu sesuatu bergeser dari masalah sosial umum jadi masalahmu sendiri.
 
-Anak perempuan jauh lebih terdampak oleh media sosial secara spesifik. Loop perbandingan berbasis gambar, dinamika relasional, dan lingkungan sosial yang selalu aktif sangat beracun bagi remaja perempuan. Aku membaca bagian itu dan memikirkan dua anak perempuanku yang sekarang berusia tujuh tahun. Dan aku merasakan kewaspadaan khusus yang kamu rasakan ketika sesuatu bergeser dari masalah sosial umum menjadi *masalahmu sendiri*.
-
-Mereka belum di media sosial. Tapi suatu saat akan masuk. Dan pertanyaan yang terus duduk bersamaku sejak saat itu adalah: apa yang harus aku bangun dalam diri mereka sekarang, sebelum dunia itu datang?
-
-## 富养女
+Mereka belum di media sosial. Tapi suatu saat akan masuk. Dan pertanyaan yang terus ada bersamaku sejak saat itu adalah: apa yang harus aku bangun dalam diri mereka sekarang, sebelum dunia itu datang?
 
 Ada pepatah Mandarin yang tumbuh bersama generasi orang tuaku: 富养女，穷养儿.
 
 Besarkan anak perempuan dengan kelimpahan. Besarkan anak laki-laki dengan kesulitan.
 
-Terdengar aneh dalam bahasa Indonesia, dan mudah disalahartikan sebagai soal uang. Bukan itu. "Kelimpahan" yang dimaksud adalah berlimpahnya cinta, perhatian, budaya, dan kehalusan budi. Membangun dunia batin seorang perempuan agar ia mengembangkan selera, rasa percaya diri, dan keanggunan. Sementara "kesulitan" untuk anak laki-laki adalah tentang membangun ketahanan dan semangat juang melalui perjuangan. Kebutuhan berbeda, pendekatan berbeda.
+Kedengarannya aneh dalam bahasa Indonesia, dan gampang disalahartiin sebagai soal uang. Bukan itu. "Kelimpahan" yang dimaksud adalah berlimpahnya cinta, perhatian, budaya, dan kehalusan budi. Membangun dunia batin seorang perempuan supaya ia mengembangkan selera, rasa percaya diri, dan keanggunan. Sementara "kesulitan" untuk anak laki-laki itu soal membangun ketahanan dan semangat juang lewat perjuangan. Kebutuhan berbeda, pendekatan berbeda.
 
-Soal anak laki-laki akan aku simpan untuk lain waktu. Ada keponakan laki-laki yang akan segera lahir dan artikel itu sudah terbentuk di kepalaku. Yang ini tentang anak perempuan.
+Soal anak laki-laki aku simpen untuk lain waktu. Ada keponakan laki-laki yang akan segera lahir dan artikel itu sudah terbentuk di kepalaku. Yang ini tentang anak perempuan.
 
-Psikologi di balik 富养女 sebenarnya didukung dengan baik oleh penelitian modern, meski orang-orang yang menciptakan pepatah ini berabad-abad lalu tidak akan menggunakan bahasa seperti itu. Anak perempuan yang tumbuh dengan kelekatan yang aman dan hangat, yang merasa benar-benar dipilih dan dihargai di rumah, memasuki masa remaja dengan jawaban yang sudah terbentuk atas pertanyaan yang akan mengikuti mereka ke mana-mana: *apakah aku berharga?*
+Psikologi di balik 富养女 sebenarnya didukung dengan baik oleh penelitian modern, meski orang-orang yang menciptakan pepatah ini berabad-abad lalu nggak akan pakai bahasa seperti itu. Anak perempuan yang tumbuh dengan kelekatan yang aman dan hangat, yang ngerasa beneran dipilih dan dihargai di rumah, masuk masa remaja dengan jawaban yang sudah terbentuk atas pertanyaan yang akan ngikutin mereka ke mana-mana: apakah aku berharga?
 
-Jawaban itu sudah diulang kepada mereka dalam cara-cara kecil sehari-hari jauh sebelum ponsel pernah masuk ke dalam gambar. Jadi ketika media sosial datang dan mulai menjalankan loop perbandingannya, mereka punya fondasi. Perih, tapi tidak mengguncang. Identitas mereka tidak bergantung pada metrik.
+Jawaban itu sudah diulang ke mereka dalam cara-cara kecil sehari-hari jauh sebelum ponsel pernah masuk ke dalam gambar. Jadi waktu media sosial datang dan mulai jalanin loop perbandingannya, mereka punya fondasi. Perih, tapi nggak mengguncang. Identitas mereka nggak bergantung pada metrik.
 
-Anak perempuan tanpa fondasi itu memasuki lingkungan yang sama dalam keadaan lapar. Ia belum mendapat jawaban yang jelas dan konsisten atas pertanyaan yang sama itu. Jadi ia mencarinya — dalam jumlah followers, dalam respons anak laki-laki terhadapnya, dalam apakah ia masuk atau keluar dari grup chat yang tepat. Platformnya sama. Kerentanannya berbeda.
+Anak perempuan tanpa fondasi itu masuk ke lingkungan yang sama dalam keadaan lapar. Ia belum dapat jawaban yang jelas dan konsisten atas pertanyaan yang sama itu. Jadi ia carinya, dalam jumlah followers, dalam respons anak laki-laki terhadapnya, dalam apakah ia masuk atau keluar dari grup chat yang tepat. Platformnya sama. Kerentanannya berbeda.
 
-## Seperti apa kelimpahan itu
+Aku mau spesifik soal apa arti kelimpahan di rumah kami, karena ini bukan soal gestur besar.
 
-Aku ingin spesifik tentang apa arti kelimpahan di rumah kami, karena ini bukan soal gestur besar.
+Ini soal datang ke pertunjukan tari Mandarin mereka bahkan waktu kerjaan lagi berat. Duduk bareng mereka sepulang sekolah dan beneran dengerin apa yang terjadi, bukan setengah dengerin sambil ngecek ponsel. Bikin mereka ngerasa bahwa ayahnya nganggep mereka menarik, bukan cuma nyayangi mereka dengan cara orang tua pada umumnya, tapi beneran nganggep mereka layak dapat waktu dan perhatiannya.
 
-Ini soal datang ke pertunjukan tari Mandarin mereka bahkan ketika pekerjaan sedang berat. Duduk bersama mereka sepulang sekolah dan benar-benar mendengarkan apa yang terjadi, bukan setengah mendengar sambil mengecek ponsel. Membuat mereka merasa bahwa ayahnya menganggap mereka menarik — bukan hanya menyayangi mereka dengan cara orang tua pada umumnya, tapi sungguh-sungguh menganggap mereka layak mendapat waktu dan perhatiannya.
+Istriku dan aku sering ngomongin ini. Banyak banget yang kita lihat pada anak perempuan yang lebih tua, yang nyari perhatian dari tempat yang salah, yang tolerir perlakuan buruk, yang lapar akan validasi dari luar, setidaknya sebagian bisa ditelusuri ke kesenjangan di awal kehidupan. Nggak selalu. Keluarga itu rumit dan setiap cerita beda. Tapi cukup sering sehingga kami nganggepnya serius.
 
-Istriku dan aku sering membicarakan ini. Begitu banyak yang kita lihat pada anak perempuan yang lebih tua — mencari perhatian dari tempat yang salah, mentolerir perlakuan buruk, lapar akan validasi eksternal — setidaknya sebagian bisa ditelusuri ke kesenjangan di awal kehidupan. Tidak selalu. Keluarga itu rumit dan setiap cerita berbeda. Tapi cukup sering sehingga kami menganggapnya serius.
+Peran ayah penting dengan cara yang spesifik yang makin banyak aku pikirin seiring mereka tumbuh. Hubungan seorang anak perempuan dengan ayahnya pada dasarnya adalah pengalaman pertamanya tentang bagaimana seorang laki-laki memandangnya. Kalau pengalaman itu konsisten, kamu dihargai, kamu menarik, kamu layak dapat perhatian penuhku, ia membangun titik referensi.
 
-Peran ayah penting dengan cara yang spesifik yang semakin banyak aku pikirkan seiring mereka tumbuh. Hubungan seorang anak perempuan dengan ayahnya pada dasarnya adalah pengalaman pertamanya tentang bagaimana seorang laki-laki memandangnya. Jika pengalaman itu konsisten — *kamu dihargai, kamu menarik, kamu layak mendapat perhatian penuhku* — ia membangun titik referensi.
+Nanti, waktu ia ketemu seseorang yang ceroboh dengan perasaannya atau nggak konsisten dalam cara ia memperlakukannya, ada sesuatu dalam dirinya yang akan ngenali kesenjangan itu. Kesenjangan itu protektif. Ia punya tolok ukur untuk apa rasanya beneran dihargai oleh seorang laki-laki. Ia nggak perlu nebak.
 
-Nanti, ketika ia bertemu seseorang yang ceroboh dengan perasaannya atau tidak konsisten dalam cara ia memperlakukannya, ada sesuatu dalam dirinya yang akan mengenali kesenjangan itu. Kesenjangan itu protektif. Ia punya tolok ukur untuk apa rasanya benar-benar dihargai oleh seorang laki-laki. Ia tidak perlu menebak.
+Itu yang coba aku bangun. Bukan kesempurnaan. Aku sering salah. Tapi konsistensi. Hadir cukup sering sehingga pesannya tersampaikan.
 
-Itulah yang coba aku bangun. Bukan kesempurnaan. Aku sering salah. Tapi konsistensi. Hadir cukup sering sehingga pesannya tersampaikan.
+Sebagian besar enrichment di Singapura dioptimalkan untuk performa akademis. Aku ngerti logikanya. Sistem ini menghargai nilai. Nilai buka pintu. Ini nggak salah.
 
-## Kembali ke angkat bahu tadi
+Tapi aku juga mikirinnya seperti apa anak perempuanku di usia 15, 22, 30. Dan waktu aku mikirinnya, aku nemu diriku lebih sedikit khawatir apakah mereka bisa selesaiin persamaan x, dan lebih banyak khawatir apakah mereka tau cara bawa diri mereka di dalam sebuah ruangan, apakah mereka punya hubungan dengan tubuh dan suara mereka sendiri, apakah mereka punya sesuatu di dalam diri yang bisa jaga mereka tetap teguh waktu tekanan dari luar lagi nyoba bentuk ulang mereka.
 
-Sebagian besar enrichment di Singapura dioptimalkan untuk performa akademis. Aku memahami logikanya. Sistem ini menghargai nilai. Nilai membuka pintu. Ini tidak salah.
+Public speaking ngajarin mereka berpikir cepat dan narik perhatian tanpa minta maaf. Tari Mandarin kasih mereka disiplin fisik, akar budaya, dan kesadaran akan tubuh mereka yang nggak ada hubungannya dengan cara mereka keliatan di mata orang lain. Piano bangun kesabaran, ketepatan, dan kepuasan khusus dari bikin hal-hal susah jadi bener lewat usaha yang berkelanjutan.
 
-Tapi aku juga memikirkan seperti apa anak perempuanku di usia 15, 22, 30. Dan ketika aku memikirkan itu, aku menemukan diriku lebih sedikit khawatir apakah mereka bisa menyelesaikan persamaan x, dan lebih banyak khawatir apakah mereka tahu cara membawa diri mereka di dalam sebuah ruangan, apakah mereka memiliki hubungan dengan tubuh dan suara mereka sendiri, apakah mereka memiliki sesuatu di dalam diri yang bisa menjaga mereka tetap teguh ketika tekanan eksternal sedang mencoba membentuk ulang mereka.
+Nggak ada satu pun dari ini yang muncul di rapor. Semuanya, aku percaya, muncul dalam cara mereka melangkah di dunia.
 
-Public speaking mengajarkan mereka berpikir cepat dan menarik perhatian tanpa meminta maaf. Tari Mandarin memberi mereka disiplin fisik, akar budaya, dan kesadaran akan tubuh mereka yang tidak ada hubungannya dengan cara mereka terlihat di mata orang lain. Piano membangun kesabaran, ketepatan, dan kepuasan khusus dari membuat hal-hal sulit menjadi benar melalui usaha yang berkelanjutan.
+Kegiatan-kegiatan ini juga dimulai sejak muda, yang penting. Kepercayaan diri yang dibangun lewat bertahun-tahun latihan, tampil di atas panggung, ngomong di hadapan penonton, duduk sama karya musik yang susah sampai bisa, kepercayaan diri kayak gitu tinggal di dalam tubuh. Bukan pola pikir yang kamu adopsi. Ini sesuatu yang udah kamu lakuin, berulang kali, sampai jadi bagian dari cara kamu memahami dirimu sendiri.
 
-Tidak ada satu pun dari ini yang muncul di rapor. Semuanya, aku percaya, muncul dalam cara mereka melangkah di dunia.
+Itu lebih susah dijangkau oleh algoritma.
 
-Kegiatan-kegiatan ini juga dimulai sejak muda, yang penting. Kepercayaan diri yang dibangun melalui bertahun-tahun latihan — tampil di atas panggung, berbicara di hadapan penonton, duduk dengan karya musik yang sulit sampai bisa — kepercayaan diri seperti itu tinggal di dalam tubuh. Bukan pola pikir yang kamu adopsi. Ini sesuatu yang telah kamu lakukan, berulang kali, sampai menjadi bagian dari cara kamu memahami dirimu sendiri.
+Aku mau jelasin bahwa aku lagi mendokumentasiin pemikiranku sendiri di sini, bukan meresepkan pendekatan siapa pun. Keluarga hadir dalam berbagai bentuk. Setiap anak beda. Apa yang berhasil di rumah kami dengan anak perempuan kembar yang tumbuh di Singapura bukan cetak biru universal.
 
-Itu lebih sulit dijangkau oleh algoritma.
+Tapi kalau kamu orang tua dari anak perempuan dan kamu udah ngerasain semacam apa yang aku rasain waktu baca Haidt, perasaan waspada yang sedikit nggak nyaman karena ngenali masalah yang menuju ke arah anak-anakmu yang spesifik, maka mungkin sebagian dari ini berguna.
 
----
+Anak-anakku sudah tujuh tahun. Kita lagi ada di dalam jendela waktu itu sekarang.
 
-Aku ingin menjelaskan bahwa aku sedang mendokumentasikan pemikiranku sendiri di sini, bukan meresepkan pendekatan siapa pun. Keluarga hadir dalam berbagai bentuk. Setiap anak berbeda. Apa yang berhasil di rumah kami dengan anak perempuan kembar yang tumbuh di Singapura bukan cetak biru universal.
+Ponsel-ponsel itu akan datang pada akhirnya. Loop perbandingan, tekanan sosial, anak-anak laki-laki, seribu momen kecil di mana mereka harus mutusin apa nilai diri mereka. Semua itu akan datang.
 
-Tapi jika kamu orang tua dari anak perempuan dan kamu telah merasakan semacam apa yang aku rasakan saat membaca Haidt — perasaan waspada yang sedikit tidak nyaman karena mengenali masalah yang menuju ke arah anak-anakmu yang spesifik — maka mungkin sebagian dari ini berguna.
+Yang bisa dilakukan aku dan istriku adalah membangun sebelum itu tiba. Ngisi mereka cukup banyak sehingga waktu dunia mulai minta mereka untuk jadi lebih kecil, lebih diam, lebih mudah diatur, mereka sudah tau jawabannya.
 
-Anak-anakku sudah tujuh tahun. Kita sedang berada dalam jendela waktu itu sekarang.
-
-Ponsel-ponsel itu akan datang pada akhirnya. Loop perbandingan, tekanan sosial, anak-anak laki-laki, seribu momen kecil di mana mereka harus memutuskan apa nilai diri mereka. Semua itu akan datang.
-
-Apa yang bisa dilakukan aku dan istriku adalah membangun sebelum itu tiba. Mengisi mereka cukup banyak sehingga ketika dunia mulai meminta mereka untuk menjadi lebih kecil, lebih diam, lebih mudah diatur, mereka sudah tahu jawabannya.
-
-Itulah yang sedang kami coba lakukan. Kita lihat hasilnya nanti.
+Itu yang lagi kami coba lakuin. Kita lihat hasilnya nanti.
