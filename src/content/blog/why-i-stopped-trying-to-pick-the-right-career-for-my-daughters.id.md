@@ -1,6 +1,6 @@
 ---
 title: "Kenapa Aku Berhenti Mencoba Memilihkan Karier yang Tepat untuk Anak-Anakku"
-date: 2026-01-15
+date: '2026-02-17'
 categories: [parenting, ai-and-work]
 description: "Anak perempuanku sudah tujuh tahun. Aku belum mendiskusikan AI dengan mereka. Percakapan itu kulakukan bersama istriku — sepotong-sepotong, setelah acara sekolah, di perjalanan pulang dari kelas les."
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Aku Nonton AI Bangun Websiteku. Terus Aku Mulai Khawatir Soal Les Matematika Anak-anakku."
-date: 2026-02-26
+date: '2026-02-25'
 categories: [ai-and-work, parenting]
 description: "Aku bangun website lengkap dalam hitungan hari dengan AI sebagai orkestrator. Lalu aku nonton anak-anakku hafalan perkalian dan mulai bertanya-tanya apa yang sebenarnya dipilih oleh ujian sekarang."
 draft: false

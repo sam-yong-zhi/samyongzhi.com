@@ -1,6 +1,6 @@
 ---
 title: "Aku Pakai AI untuk Benerin Masalah Catatan yang Sudah Aku Abaikan Bertahun-tahun"
-date: '2026-03-01'
+date: '2026-02-27'
 categories:
   - ai-and-work
 description: >-

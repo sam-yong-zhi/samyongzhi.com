@@ -1,6 +1,6 @@
 ---
 title: I Chose a Government Flat Over a Condo. Here's What I Got Instead.
-date: '2026-02-08'
+date: '2026-02-20'
 categories:
   - money
 description: >-

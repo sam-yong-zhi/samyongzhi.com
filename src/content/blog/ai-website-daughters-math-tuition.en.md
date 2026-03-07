@@ -1,6 +1,6 @@
 ---
 title: "I Watched AI Build My Website. Then I Worried About My Daughters' Math Tuition."
-date: 2026-02-26
+date: '2026-02-25'
 categories: [ai-and-work, parenting]
 description: "I built a full website in days using AI as an orchestrator. Then I watched my daughters drilling multiplication tables and started wondering what exams are actually selecting for now."
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "I Used AI to Fix the Notes Problem I'd Been Ignoring for Years"
-date: '2026-03-01'
+date: '2026-02-27'
 categories:
   - ai-and-work
 description: >-

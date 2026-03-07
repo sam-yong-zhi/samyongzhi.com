@@ -1,6 +1,6 @@
 ---
 title: "Aku Pilih HDB, Bukan Kondo. Ini yang Kudapat Sebagai Gantinya."
-date: 2026-02-08
+date: '2026-02-20'
 categories: [money]
 description: "Semua yang aku kenal punya kondo. Aku beli flat HDB. Tiga gagasan dari Morgan Housel membantuku memahami kenapa itu pilihan yang tepat dan apa yang sebenarnya aku dapat."
 draft: false
