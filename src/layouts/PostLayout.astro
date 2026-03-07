@@ -1,7 +1,8 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import CategoryBadge from '../components/CategoryBadge.astro';
-import SubscribeForm from '../components/SubscribeForm.astro';
+// import SubscribeForm from '../components/SubscribeForm.astro';
+import KofiNote from '../components/KofiNote.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface LangToggle {
@@ -38,5 +39,6 @@ const formattedDate = date.toLocaleDateString(lang === 'id' ? 'id-ID' : 'en-US',
       <slot />
     </div>
   </article>
-  <SubscribeForm lang={lang} />
+  {/* <SubscribeForm lang={lang} /> */}
+  <KofiNote lang={lang} />
 </BaseLayout>

@@ -1,0 +1,51 @@
+---
+interface Props {
+  lang?: 'en' | 'id';
+}
+const { lang = 'en' } = Astro.props;
+
+const kofiUrl = 'https://ko-fi.com/samyongzhi';
+
+const line1 = lang === 'id'
+  ? 'Kalau tulisan ini ada manfaatnya buat kamu — entah kasih ide baru, sedikit pencerahan, atau sekadar relate — kamu bisa traktir aku kopi virtual di Ko-fi.'
+  : 'If this post resonates with you or gives you something useful to think about, you can buy me a virtual coffee on Ko-fi.';
+
+const line2 = lang === 'id'
+  ? 'Lumayan buat bantu website ini tetap jalan dan aku bisa terus nulis.'
+  : 'It helps support the writing and keeps this little corner of the internet going.';
+
+const linkText = lang === 'id' ? 'Traktir aku kopi' : 'Buy me a coffee';
+---
+
+<div class="kofi-note">
+  <p>{line1}</p>
+  <p>{line2} <a href={kofiUrl} target="_blank" rel="noopener noreferrer">{linkText} &rarr;</a></p>
+</div>
+
+<style>
+  .kofi-note {
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    padding-top: 2rem;
+    font-family: var(--font-sans);
+    font-size: 0.925rem;
+    color: var(--muted);
+  }
+
+  .kofi-note p {
+    margin: 0 0 0.5rem;
+    line-height: 1.7;
+  }
+
+  .kofi-note p:last-child {
+    margin: 0;
+  }
+
+  .kofi-note a {
+    color: var(--muted);
+  }
+
+  .kofi-note a:hover {
+    color: var(--text);
+  }
+</style>

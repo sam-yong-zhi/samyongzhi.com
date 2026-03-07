@@ -1,39 +1,53 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import SubscribeForm from '../../components/SubscribeForm.astro';
+// import SubscribeForm from '../../components/SubscribeForm.astro';
 ---
 
 <BaseLayout
-  title="Langganan"
-  description="Dapatkan tulisan baru lewat email — tentang parenting sadar AI, keuangan keluarga, dan pilihan hidup yang disengaja."
+  title="Traktir Aku Kopi"
+  description="Kalau ada tulisan di sini yang berguna buat kamu, kamu bisa traktir aku kopi virtual di Ko-fi buat bantu website ini tetap jalan."
   lang="id"
   langToggle={{ en: '/subscribe', id: '', active: 'id' }}
 >
-  <div class="subscribe-page">
-    <h1>Langganan</h1>
+  <div class="coffee-page">
+    <h1>Traktir Aku Kopi</h1>
     <p>
-      Aku nulis soal membesarkan anak di era AI, membangun kekayaan keluarga, dan milih dengan sengaja
-      bagaimana kita habisin waktu dan uang. Nggak ada newsletter mingguan, nggak ada rangkuman.
-      Cuma postingan baru, langsung ke inbox-mu.
+      Aku nulis soal parenting, keuangan keluarga, dan hidup yang lebih disengaja. Kalau ada
+      tulisan di sini yang berguna buat kamu, kamu bisa traktir aku kopi virtual di Ko-fi.
+      Nggak ada kewajiban — ini cuma cara kecil buat bilang tulisannya ada manfaatnya.
     </p>
-    <p>Suka tulisan ini? Daftarkan emailmu di bawah.</p>
-    <SubscribeForm lang="id" />
+    <a
+      href="https://ko-fi.com/samyongzhi"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="kofi-link"
+    >Traktir aku kopi di Ko-fi &rarr;</a>
   </div>
 </BaseLayout>
 
 <style>
-  .subscribe-page {
+  .coffee-page {
     max-width: var(--max-w);
     padding-top: 2rem;
   }
 
-  .subscribe-page h1 {
+  .coffee-page h1 {
     margin-bottom: 1rem;
   }
 
-  .subscribe-page p {
+  .coffee-page p {
     color: var(--muted);
     line-height: 1.7;
-    margin: 0;
+    margin: 0 0 1.5rem;
+  }
+
+  .kofi-link {
+    font-family: var(--font-sans);
+    font-size: 0.925rem;
+    color: var(--muted);
+  }
+
+  .kofi-link:hover {
+    color: var(--text);
   }
 </style>

@@ -1,37 +1,52 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import SubscribeForm from '../components/SubscribeForm.astro';
+// import SubscribeForm from '../components/SubscribeForm.astro';
 ---
 
 <BaseLayout
-  title="Subscribe"
-  description="Get new posts by email covering AI-aware parenting, family finance, and intentional living."
+  title="Buy Me a Coffee"
+  description="If something I've written has been useful to you, you can buy me a virtual coffee on Ko-fi to help keep the writing going."
   langToggle={{ en: '', id: '/id/subscribe', active: 'en' }}
 >
-  <div class="subscribe-page">
-    <h1>Subscribe</h1>
+  <div class="coffee-page">
+    <h1>Buy Me a Coffee</h1>
     <p>
-      I write about raising kids alongside AI, building family wealth on a single income, and making deliberate 
-      choices about how we spend our time and money. No newsletters, no roundups. New posts only, straight to 
-      your inbox. Drop your email below.
+      I write about parenting, money, and living more deliberately. If something here has been
+      useful to you, you can buy me a virtual coffee on Ko-fi. There's no obligation — it's
+      just a small way to say the writing added something to your day.
     </p>
-    <SubscribeForm />
+    <a
+      href="https://ko-fi.com/samyongzhi"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="kofi-link"
+    >Buy me a coffee on Ko-fi &rarr;</a>
   </div>
 </BaseLayout>
 
 <style>
-  .subscribe-page {
+  .coffee-page {
     max-width: var(--max-w);
     padding-top: 2rem;
   }
 
-  .subscribe-page h1 {
+  .coffee-page h1 {
     margin-bottom: 1rem;
   }
 
-  .subscribe-page p {
+  .coffee-page p {
     color: var(--muted);
     line-height: 1.7;
-    margin: 0;
+    margin: 0 0 1.5rem;
+  }
+
+  .kofi-link {
+    font-family: var(--font-sans);
+    font-size: 0.925rem;
+    color: var(--muted);
+  }
+
+  .kofi-link:hover {
+    color: var(--text);
   }
 </style>
