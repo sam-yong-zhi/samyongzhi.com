@@ -14,13 +14,13 @@ const line2 = lang === 'id'
   ? 'Lumayan buat bantu website ini tetap jalan dan aku bisa terus nulis.'
   : 'It helps support the writing and keeps this little corner of the internet going.';
 
-const linkText = lang === 'id' ? 'Traktir aku kopi' : 'Buy me a coffee';
+const linkText = lang === 'id' ? 'Traktir aku kopi virtual ☕' : 'Buy me a virtual coffee ☕';
 ---
 
 <div class="kofi-note">
   <p>{line1}</p>
   <p>{line2}</p>
-  <p><a href={kofiUrl} target="_blank" rel="noopener noreferrer" class="kofi-btn">{linkText} &rarr;</a></p>
+  <p><a href={kofiUrl} target="_blank" rel="noopener noreferrer" class="kofi-btn">{linkText}</a></p>
 </div>
 
 <style>
