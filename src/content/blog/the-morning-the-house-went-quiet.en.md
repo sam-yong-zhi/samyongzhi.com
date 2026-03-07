@@ -1,6 +1,6 @@
 ---
 title: The Morning the House Went Quiet
-date: '2026-03-07'
+date: '2026-03-05'
 categories:
   - parenting
 description: >-

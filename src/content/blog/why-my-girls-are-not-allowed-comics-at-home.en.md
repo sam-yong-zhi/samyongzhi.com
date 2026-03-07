@@ -1,6 +1,6 @@
 ---
 title: Why My Girls Are Not Allowed Comics at Home
-date: '2026-03-07'
+date: '2026-03-04'
 categories:
   - parenting
 description: >-
