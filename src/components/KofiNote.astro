@@ -7,7 +7,7 @@ const { lang = 'en' } = Astro.props;
 const kofiUrl = 'https://ko-fi.com/samyongzhi';
 
 const line1 = lang === 'id'
-  ? 'Kalau tulisan ini ada manfaatnya buat kamu — entah kasih ide baru, sedikit pencerahan, atau sekadar relate — kamu bisa traktir aku kopi virtual di Ko-fi.'
+  ? 'Kalau tulisan ini kasih kamu ide baru, sedikit pencerahan, atau sekadar terasa relate, kamu bisa traktir aku kopi virtual di Ko-fi.'
   : 'If this post resonates with you or gives you something useful to think about, you can buy me a virtual coffee on Ko-fi.';
 
 const line2 = lang === 'id'
@@ -20,7 +20,7 @@ const linkText = lang === 'id' ? 'Traktir aku kopi' : 'Buy me a coffee';
 <div class="kofi-note">
   <p>{line1}</p>
   <p>{line2}</p>
-  <p><a href={kofiUrl} target="_blank" rel="noopener noreferrer">{linkText} &rarr;</a></p>
+  <p><a href={kofiUrl} target="_blank" rel="noopener noreferrer" class="kofi-btn">{linkText} &rarr;</a></p>
 </div>
 
 <style>
@@ -42,11 +42,20 @@ const linkText = lang === 'id' ? 'Traktir aku kopi' : 'Buy me a coffee';
     margin: 0;
   }
 
-  .kofi-note a {
-    color: var(--muted);
+  .kofi-btn {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.925rem;
+    font-family: var(--font-sans);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
   }
 
-  .kofi-note a:hover {
-    color: var(--text);
+  .kofi-btn:hover {
+    border-color: var(--muted);
   }
 </style>
