@@ -19,8 +19,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       href="https://ko-fi.com/samyongzhi"
       target="_blank"
       rel="noopener noreferrer"
-      class="kofi-link"
-    >Buy me a coffee on Ko-fi &rarr;</a>
+      class="kofi-btn"
+    >Buy me a virtual coffee ☕</a>
   </div>
 </BaseLayout>
 
@@ -40,13 +40,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin: 0 0 1.5rem;
   }
 
-  .kofi-link {
-    font-family: var(--font-sans);
+  .kofi-btn {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
     font-size: 0.925rem;
-    color: var(--muted);
+    font-family: var(--font-sans);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: border-color 0.15s;
   }
 
-  .kofi-link:hover {
-    color: var(--text);
+  .kofi-btn:hover {
+    border-color: var(--muted);
   }
 </style>
