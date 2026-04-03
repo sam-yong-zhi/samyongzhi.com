@@ -4,10 +4,10 @@ interface Props {
 }
 const { lang = 'en' } = Astro.props;
 
-const kofiUrl = 'https://ko-fi.com/samyongzhi';
+const url = lang === 'id' ? 'https://saweria.co/al1cel' : 'https://ko-fi.com/samyongzhi';
 
 const line1 = lang === 'id'
-  ? 'Kalau tulisan ini kasih kamu ide baru, sedikit pencerahan, atau sekadar terasa relate, kamu bisa traktir aku kopi virtual di Ko-fi.'
+  ? 'Kalau tulisan ini kasih kamu ide baru, sedikit pencerahan, atau sekadar terasa relate, kamu bisa traktir aku kopi virtual di Saweria.'
   : 'If this post resonates with you or gives you something useful to think about, you can buy me a virtual coffee on Ko-fi.';
 
 const line2 = lang === 'id'
@@ -20,7 +20,7 @@ const linkText = lang === 'id' ? 'Traktir aku kopi virtual ☕' : 'Buy me a virt
 <div class="kofi-note">
   <p>{line1}</p>
   <p>{line2}</p>
-  <p><a href={kofiUrl} target="_blank" rel="noopener noreferrer" class="kofi-btn">{linkText}</a></p>
+  <p><a href={url} target="_blank" rel="noopener noreferrer" class="kofi-btn">{linkText}</a></p>
 </div>
 
 <style>
