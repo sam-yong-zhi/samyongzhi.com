@@ -6,6 +6,10 @@ draft: false
 sections:
   - id: why-it-matters
     title: Why This Matters
+  - id: culture
+    title: "The Culture Underneath the Tactics"
+  - id: audiobooks
+    title: "A Note on Audiobooks"
   - id: environment
     title: "1. Environment Is the Strategy"
   - id: format
@@ -14,6 +18,10 @@ sections:
     title: "3. Don't Stop Reading Aloud"
   - id: progression
     title: "4. Build a Progression"
+  - id: graphic-novels
+    title: "On Graphic Novels"
+  - id: book-list
+    title: "The Reading Progression List"
   - id: metrics
     title: "5. Measure What Matters"
   - id: screens
@@ -50,6 +58,32 @@ Haidt's central argument in *The Anxious Generation* is that we handed children 
 
 This is not about raising a bookworm. It's about preserving a cognitive capability, long-form focus, that is becoming increasingly rare, and that every serious adult endeavour still requires.
 
+## The Culture Underneath the Tactics {#culture}
+
+There is one factor that sits underneath all the tactics in this guide, and it is not a tactic at all. It is the culture your child grows up inside.
+
+We started reading to our daughters before they could read a single word. Bedtime stories were non-negotiable from infancy, not because a parenting book told us to, but because it became one of the rituals our family built its evenings around. By the time our daughters were old enough to hold a book themselves, reading was already loaded with positive association. It meant time with us. It meant warmth and laughter and questions at the end of chapters. It was not an activity we introduced to them as children. It was something they grew up inside.
+
+Research from Cincinnati Children's Hospital found that regions in the brain associated with word meanings and memory become active when children listen to stories, and that the more children are read to, the more those neural connections grow and strengthen. But the mechanism I care about more than the neuroscience is simpler: children who associate reading with closeness and safety approach books differently from children who encounter them as schoolwork.
+
+The second half of the modelling equation is what your children see you doing on your own. My wife reads novels. I read business books, history, and nonfiction. We do not hide this or make a performance of it. It is just what we do in the evenings and on weekends. For younger children the effect is direct: if the adults in a household reach for books the way other households reach for their phones, children absorb that as the definition of normal.
+
+You cannot manufacture this culture overnight. But you can start it at any point, and the earlier the better.
+
+---
+
+## A Note on Audiobooks {#audiobooks}
+
+Audiobooks come up often in parenting discussions about reading, and they deserve an honest answer rather than a blanket endorsement.
+
+Research shows that the brain activates the same regions when listening to words as when reading them, and that audiobooks are genuinely useful for vocabulary exposure and comprehension, particularly for children who are not yet confident readers. Almost 2 in 5 children say that listening to an audiobook has sparked their interest in reading books. That is not nothing.
+
+My view is that audiobooks are a supplement, not a substitute, for the specific goal this guide is working toward. The goal is building long-form focus: the ability to sit with dense prose, construct mental images from words alone, and follow complex narrative without visual or audio scaffolding. That particular capability develops through reading, not listening. A child who gets their stories primarily through audiobooks is building comprehension and vocabulary, which is real value, but not the sustained-attention muscle that silent reading trains.
+
+Where audiobooks earn their place in our household: long car journeys, where reading is not practical. As a bridge for a child who is resisting a book they need to encounter. And the "read-while-listening" format, where a child follows the text while the audio plays, which research shows accelerates reading fluency significantly more than reading alone.
+
+Use them. Just be clear about what they are for.
+
 ---
 
 ## 1. Environment Is the Strategy {#environment}
@@ -65,6 +99,14 @@ The research is clear: children read more when books are physically present and 
 **Remove the path of least resistance to passive entertainment.** This isn't about banning screens; it's about making reading the default option during downtime. If the iPad is tucked away and a book is within reach, the book wins more often than you'd expect. Friction works both ways: you want less friction for reading, more friction for passive scrolling.
 
 The goal is for reading to feel like the natural thing to do, not the virtuous sacrifice.
+
+One thing worth separating is the role of the library at different ages, because it changes significantly.
+
+When children are young, picture books are expensive relative to how long a single read takes. A child who is more interested in the illustrations than the text will sit with a book for five minutes and move on. Buying those books individually makes little economic sense. The library at that stage is the obvious answer: cheap access, huge variety, no guilt when a book gets returned half-read.
+
+We brought our daughters to the library once or twice a month through the preschool years. When they hit Primary 1, we shifted strategy. Books at that level are thicker and worth owning. We aggressively built a home collection. The logic is simple: a book on the shelf gets picked up repeatedly, read in pieces, revisited. A library book has a return date and lives on a stack. For children developing serious reading habits, a home collection is the foundational environment. Owning books changes your relationship to them.
+
+What happened to the library after that was something I did not fully anticipate. It became a treat. Our daughters now describe going as visiting a candy house: they wander the shelves, grab whatever looks interesting, and browse entirely on their own terms. That sense of abundance and free choice is something you cannot replicate at home. The library and the home collection now serve different functions. Home is the daily habit. The library is the occasion.
 
 ---
 
@@ -134,6 +176,20 @@ Worth noting: the progression below is rooted in the English-language Western ca
 
 ---
 
+## On Graphic Novels {#graphic-novels}
+
+I want to address this directly because graphic novels and illustrated comics are enormously popular with children at the primary school age, and most parenting guides advocate for them enthusiastically under the banner of "any reading counts."
+
+My position is more specific, and it comes from thinking carefully about what I am actually trying to build.
+
+I read comics extensively as a child. I understand the appeal and I do not think they are worthless. My concern is about sequencing and competition. The goal of this progression is to develop a child who can sustain attention through dense prose, construct vivid mental images from words alone, and follow complex narrative without visual scaffolding. Graphic novels train a genuinely different set of skills. The eye moves across images and short dialogue fragments, not through paragraphs. The sentence structures are conversational by necessity, which is a different register of English than what novels provide.
+
+My practical concern is free choice under competition. A child who finds graphic novels easy and novels effortful will, given the option, consistently choose the easier format. I am not willing to introduce that competition into our home library. My daughters can read comics at their school library or browse them at a bookstore. The format is not banned from their lives. I am simply being deliberate about what fills the default reading environment at home.
+
+If your child is not reading at all, a graphic novel is genuinely better than nothing, and the "any reading counts" argument applies. But if your child is already willing to read and your goal is to build serious long-form reading ability, I think that framing concedes too much. Format shapes habit. Be intentional about it.
+
+---
+
 ### The Reading Progression List {#book-list}
 
 This is the actual sequence I'm running with my daughters, updated as we go. Use it as a reference, not a prescription.
@@ -195,7 +251,17 @@ What's actually worth tracking:
 
 **Voluntary reading.** Do they pick up a book without being prompted? This is the ultimate indicator that reading has become identity rather than obligation.
 
-Lexile scores and reading levels are useful for teachers managing a classroom of thirty children. For a parent managing one or two, they're noise. Trust your observation of your child over any benchmark.
+Lexile scores and reading levels are useful for teachers managing a classroom of thirty children. For a parent managing one or two, they are noise. Trust your observation of your child over any benchmark.
+
+A related question parents ask often: how much should my child read each day?
+
+I do not track this and have never set a daily reading target for my daughters. My honest answer is that if you have built the environment correctly, it becomes the wrong question.
+
+Here is what our home actually looks like. Television is capped at one hour a day, chosen deliberately rather than left to default. Beyond that, when my daughters have unstructured time, the available options are schoolwork or books. There is no phone scrolling, no open-ended YouTube. The path of least resistance leads to the bookshelf.
+
+The result is that on most days they read for several hours without being told to. Not because I instructed them to. Because nothing more immediately compelling is available, and because reading has been enjoyable since before they could read independently.
+
+This is the honest alternative to a daily quota. A quota requires enforcement, which requires a child to choose reading over something more appealing. Engineering the environment removes that choice entirely. Both conditions need to be in place: the friction on competing alternatives, and the positive association with reading built from early childhood. Either one alone is not enough.
 
 ---
 
@@ -207,7 +273,7 @@ There's a name for what happens if they haven't. Researchers and publishers call
 
 This is why the early years matter so much. You're not just building a skill; you're building an identity. A child who thinks of themselves as a reader approaches adolescence differently from one who doesn't. Reading becomes part of how they see themselves, and that identity is more durable than any rule or restriction you could impose.
 
-The transition to screens doesn't have to be a battle. The key is introducing curated screen content proactively, around ages 8 to 9, before children encounter it entirely through peer influence. Then shifting the conversation from rules to responsibility around age 10, and gradually toward a self-managed approach as they approach 12.
+The transition to screens doesn't have to be a battle. The key is introducing curated screen content proactively, around ages 8 to 9, before children encounter it entirely through peer influence. The curation matters as much as the limit. We allow roughly one hour of television a day, chosen partly for entertainment but also deliberately for language exposure. In Singapore particularly, where the English children encounter daily at school skews heavily toward local speech patterns, intentional exposure to standard spoken English through well-made shows serves a real purpose. Screen time does not have to be purely recreational or purely educational. It can be both, if you choose what fills it. Then shifting the conversation from rules to responsibility around age 10, and gradually toward a self-managed approach as they approach 12.
 
 But none of that works if reading isn't already deeply embedded. The reading habit is the foundation everything else sits on. You can't negotiate screen time with a child who doesn't have an alternative identity to protect.
 
