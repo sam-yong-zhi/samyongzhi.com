@@ -8,20 +8,20 @@ sections:
     title: Why This Matters
   - id: culture
     title: "The Culture Underneath the Tactics"
-  - id: audiobooks
-    title: "A Note on Audiobooks"
   - id: environment
     title: "Environment Is the Strategy"
   - id: format
     title: "Format Matters"
   - id: read-aloud
     title: "Don't Stop Reading Aloud"
+  - id: audiobooks
+    title: "A Note on Audiobooks"
   - id: progression
     title: "Build a Progression"
-  - id: graphic-novels
-    title: "On Graphic Novels"
   - id: book-list
     title: "The Reading Progression List"
+  - id: graphic-novels
+    title: "On Graphic Novels"
   - id: metrics
     title: "Measure What Matters"
   - id: screens
@@ -69,20 +69,6 @@ Research from Cincinnati Children's Hospital found that regions in the brain ass
 The second half of the modelling equation is what your children see you doing on your own. My wife reads novels. I read business books, history, and nonfiction. We do not hide this or make a performance of it. It is just what we do in the evenings and on weekends. For younger children the effect is direct: if the adults in a household reach for books the way other households reach for their phones, children absorb that as the definition of normal.
 
 You cannot manufacture this culture overnight. But you can start it at any point, and the earlier the better.
-
----
-
-## A Note on Audiobooks {#audiobooks}
-
-Audiobooks come up often in parenting discussions about reading, and they deserve an honest answer rather than a blanket endorsement.
-
-Research shows that the brain activates the same regions when listening to words as when reading them, and that audiobooks are genuinely useful for vocabulary exposure and comprehension, particularly for children who are not yet confident readers. Almost 2 in 5 children say that listening to an audiobook has sparked their interest in reading books. That is not nothing.
-
-My view is that audiobooks are a supplement, not a substitute, for the specific goal this guide is working toward. The goal is building long-form focus: the ability to sit with dense prose, construct mental images from words alone, and follow complex narrative without visual or audio scaffolding. That particular capability develops through reading, not listening. A child who gets their stories primarily through audiobooks is building comprehension and vocabulary, which is real value, but not the sustained-attention muscle that silent reading trains.
-
-Where audiobooks earn their place in our household: long car journeys, where reading is not practical. As a bridge for a child who is resisting a book they need to encounter. And the "read-while-listening" format, where a child follows the text while the audio plays, which research shows accelerates reading fluency significantly more than reading alone.
-
-Use them. Just be clear about what they are for.
 
 ---
 
@@ -150,6 +136,20 @@ You don't need to do this every night, and it doesn't need to replace solo readi
 
 ---
 
+## A Note on Audiobooks {#audiobooks}
+
+Audiobooks come up often in parenting discussions about reading, and they deserve an honest answer rather than a blanket endorsement.
+
+Research shows that the brain activates the same regions when listening to words as when reading them, and that audiobooks are genuinely useful for vocabulary exposure and comprehension, particularly for children who are not yet confident readers. Almost 2 in 5 children say that listening to an audiobook has sparked their interest in reading books. That is not nothing.
+
+My view is that audiobooks are a supplement, not a substitute, for the specific goal this guide is working toward. The goal is building long-form focus: the ability to sit with dense prose, construct mental images from words alone, and follow complex narrative without visual or audio scaffolding. That particular capability develops through reading, not listening. A child who gets their stories primarily through audiobooks is building comprehension and vocabulary, which is real value, but not the sustained-attention muscle that silent reading trains.
+
+Where audiobooks earn their place in our household: long car journeys, where reading is not practical. As a bridge for a child who is resisting a book they need to encounter. And the "read-while-listening" format, where a child follows the text while the audio plays, which research shows accelerates reading fluency significantly more than reading alone.
+
+Use them. Just be clear about what they are for.
+
+---
+
 ## Build a Progression, Not a Pile {#progression}
 
 Random book recommendations produce random results. If you want your child to develop genuine literary depth, you need a progression, a sequence that builds complexity, vocabulary, and thematic richness over time.
@@ -173,20 +173,6 @@ Once a child has strong reading habits, move into longer series that reward sust
 By the time children are 10 to 12, books like His Dark Materials (Philip Pullman) become possible. The Lexile score might look accessible earlier, but the philosophical content (questions about consciousness, religion, authority, mortality) deserves a reader old enough to wrestle with them meaningfully. Reading level and readiness are not the same thing.
 
 Worth noting: the progression below is rooted in the English-language Western canon because that's what I know and what my daughters are reading. But the same structural logic applies to any literary tradition. Japanese children's literature, Indonesian folklore series, Chinese classics adapted for young readers; they all have their own complexity gradients. The principle is the same: find authors and series your child loves, go wide within them, then deepen. The specific books are secondary to the discipline of building through them deliberately.
-
----
-
-## On Graphic Novels {#graphic-novels}
-
-I want to address this directly because graphic novels and illustrated comics are enormously popular with children at the primary school age, and most parenting guides advocate for them enthusiastically under the banner of "any reading counts."
-
-My position is more specific, and it comes from thinking carefully about what I am actually trying to build.
-
-I read comics extensively as a child. I understand the appeal and I do not think they are worthless. My concern is about sequencing and competition. The goal of this progression is to develop a child who can sustain attention through dense prose, construct vivid mental images from words alone, and follow complex narrative without visual scaffolding. Graphic novels train a genuinely different set of skills. The eye moves across images and short dialogue fragments, not through paragraphs. The sentence structures are conversational by necessity, which is a different register of English than what novels provide.
-
-My practical concern is free choice under competition. A child who finds graphic novels easy and novels effortful will, given the option, consistently choose the easier format. I am not willing to introduce that competition into our home library. My daughters can read comics at their school library or browse them at a bookstore. The format is not banned from their lives. I am simply being deliberate about what fills the default reading environment at home.
-
-If your child is not reading at all, a graphic novel is genuinely better than nothing, and the "any reading counts" argument applies. But if your child is already willing to read and your goal is to build serious long-form reading ability, I think that framing concedes too much. Format shapes habit. Be intentional about it.
 
 ---
 
@@ -232,6 +218,20 @@ Books that ask hard questions. Best with a parent reading alongside to discuss.
 | A Wrinkle in Time | Madeleine L'Engle | Science, faith, and family; accessible and layered |
 
 *Last updated: April 2026. This list evolves as my daughters do.*
+
+---
+
+## On Graphic Novels {#graphic-novels}
+
+I want to address this directly because graphic novels and illustrated comics are enormously popular with children at the primary school age, and most parenting guides advocate for them enthusiastically under the banner of "any reading counts."
+
+My position is more specific, and it comes from thinking carefully about what I am actually trying to build.
+
+I read comics extensively as a child. I understand the appeal and I do not think they are worthless. My concern is about sequencing and competition. The goal of this progression is to develop a child who can sustain attention through dense prose, construct vivid mental images from words alone, and follow complex narrative without visual scaffolding. Graphic novels train a genuinely different set of skills. The eye moves across images and short dialogue fragments, not through paragraphs. The sentence structures are conversational by necessity, which is a different register of English than what novels provide.
+
+My practical concern is free choice under competition. A child who finds graphic novels easy and novels effortful will, given the option, consistently choose the easier format. I am not willing to introduce that competition into our home library. My daughters can read comics at their school library or browse them at a bookstore. The format is not banned from their lives. I am simply being deliberate about what fills the default reading environment at home.
+
+If your child is not reading at all, a graphic novel is genuinely better than nothing, and the "any reading counts" argument applies. But if your child is already willing to read and your goal is to build serious long-form reading ability, I think that framing concedes too much. Format shapes habit. Be intentional about it.
 
 ---
 
