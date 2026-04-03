@@ -107,10 +107,15 @@ a:hover {
 }
 
 .site-name {
-  font-size: 1rem;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  letter-spacing: -0.01em;
+  color: var(--muted);
+  transition: color 0.15s;
+}
+
+.site-name:hover {
+  color: var(--text);
 }
 
 .site-nav {
