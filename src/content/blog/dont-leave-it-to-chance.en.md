@@ -1,5 +1,5 @@
 ---
-title: Don't Leave It to Chance
+title: Your Child's Reading Habit Has a Closing Window
 date: '2026-04-03'
 categories:
   - parenting

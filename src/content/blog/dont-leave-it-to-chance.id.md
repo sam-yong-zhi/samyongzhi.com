@@ -1,5 +1,5 @@
 ---
-title: Jangan Biarkan Terjadi Begitu Saja
+title: Kebiasaan Membaca Anakmu Punya Jendela yang Akan Menutup
 date: '2026-04-03'
 categories:
   - parenting
