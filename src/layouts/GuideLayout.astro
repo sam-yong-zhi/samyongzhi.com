@@ -55,6 +55,14 @@ const formattedDate = lastUpdated.toLocaleDateString('en-US', {
 </BaseLayout>
 
 <script>
+  // Wrap tables for horizontal scroll on mobile
+  document.querySelectorAll<HTMLTableElement>('.guide-article table').forEach((table) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'table-wrapper';
+    table.parentNode?.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  });
+
   // Jump to section dropdown
   const select = document.getElementById('guide-jump-select') as HTMLSelectElement;
   select?.addEventListener('change', () => {

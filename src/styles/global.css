@@ -602,6 +602,41 @@ a:hover {
   flex: 1;
 }
 
+.guide-article .table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.guide-article table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.guide-article th {
+  text-align: left;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-bottom: 2px solid var(--border);
+}
+
+.guide-article td {
+  padding: 0.75rem 1rem 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  line-height: 1.55;
+}
+
+.guide-article tr:last-child td {
+  border-bottom: none;
+}
+
 .guide-header {
   margin-bottom: 2rem;
 }
