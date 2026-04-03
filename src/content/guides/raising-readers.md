@@ -1,6 +1,6 @@
 ---
 title: "Don't Leave It to Chance: A Parent's Guide to Building Strong Readers Deliberately"
-description: "A structured framework for building your child's reading ability, depth, and stamina, before the attention economy gets there first."
+description: "A structured approach to building your child's reading ability, depth, and stamina, before the attention economy gets there first."
 lastUpdated: '2026-04-03'
 draft: false
 sections:
@@ -36,7 +36,7 @@ Here's what most parents don't fully appreciate: reading is not just a literacy 
 
 This is why I've chosen to build my daughters' reading progression deliberately, rather than leaving it to chance. Not as an enrichment activity. As a foundation.
 
-I have twin daughters, both strong readers. Here's the framework I've built, and what the research says backs it up.
+I have twin daughters, both strong readers. Here's the approach I've built, and what the research says backs it up.
 
 ---
 
