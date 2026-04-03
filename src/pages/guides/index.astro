@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allGuides = await getCollection('guides', (g) => !g.data.draft);
+const guides = allGuides.sort((a, b) => b.data.lastUpdated.valueOf() - a.data.lastUpdated.valueOf());
+---
+
+<BaseLayout title="Guides" description="Structured, evergreen references on parenting, money, and AI.">
+  <div class="page-title">
+    <h1>Guides</h1>
+    <p class="page-intro">Structured, evergreen references. Updated as things evolve.</p>
+  </div>
+
+  <div class="post-list">
+    {guides.map((guide) => {
+      const slug = guide.id.replace(/\.md$/, '');
+      const formattedDate = guide.data.lastUpdated.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      return (
+        <div class="post-card">
+          <a href={`/guides/${slug}`} class="post-card__title">{guide.data.title}</a>
+          <p class="post-card__desc">{guide.data.description}</p>
+          <p class="post-card__meta">Updated {formattedDate}</p>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>
