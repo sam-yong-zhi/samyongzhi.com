@@ -11,21 +11,21 @@ sections:
   - id: audiobooks
     title: "A Note on Audiobooks"
   - id: environment
-    title: "1. Environment Is the Strategy"
+    title: "Environment Is the Strategy"
   - id: format
-    title: "2. Format Matters"
+    title: "Format Matters"
   - id: read-aloud
-    title: "3. Don't Stop Reading Aloud"
+    title: "Don't Stop Reading Aloud"
   - id: progression
-    title: "4. Build a Progression"
+    title: "Build a Progression"
   - id: graphic-novels
     title: "On Graphic Novels"
   - id: book-list
     title: "The Reading Progression List"
   - id: metrics
-    title: "5. Measure What Matters"
+    title: "Measure What Matters"
   - id: screens
-    title: "6. The Screen Transition"
+    title: "The Screen Transition"
   - id: patience
     title: "A Note on Patience"
 ---
@@ -86,7 +86,7 @@ Use them. Just be clear about what they are for.
 
 ---
 
-## 1. Environment Is the Strategy {#environment}
+## Environment Is the Strategy {#environment}
 
 Before you think about book lists, reading schedules, or comprehension quizzes, get the environment right. This is the single highest-leverage thing you can do.
 
@@ -110,7 +110,7 @@ What happened to the library after that was something I did not fully anticipate
 
 ---
 
-## 2. Format Matters More Than You Think {#format}
+## Format Matters More Than You Think {#format}
 
 Here's something most parents don't consider: *how* a book is presented changes whether a child engages with it.
 
@@ -130,7 +130,7 @@ The broader point: meet your child where they are, including in the format they 
 
 ---
 
-## 3. Don't Stop Reading Aloud {#read-aloud}
+## Don't Stop Reading Aloud {#read-aloud}
 
 This is the most overlooked mistake parents make, and the research is unambiguous about it.
 
@@ -150,7 +150,7 @@ You don't need to do this every night, and it doesn't need to replace solo readi
 
 ---
 
-## 4. Build a Progression, Not a Pile {#progression}
+## Build a Progression, Not a Pile {#progression}
 
 Random book recommendations produce random results. If you want your child to develop genuine literary depth, you need a progression, a sequence that builds complexity, vocabulary, and thematic richness over time.
 
@@ -235,7 +235,7 @@ Books that ask hard questions. Best with a parent reading alongside to discuss.
 
 ---
 
-## 5. Measure What Matters (And Ignore What Doesn't) {#metrics}
+## Measure What Matters (And Ignore What Doesn't) {#metrics}
 
 Parents worry about grade-level benchmarks. They check Lexile scores and compare their child against curriculum standards. Schools reinforce this by sending home reading logs and comprehension tests.
 
@@ -265,7 +265,7 @@ This is the honest alternative to a daily quota. A quota requires enforcement, w
 
 ---
 
-## 6. The Screen Transition Is the Long Game {#screens}
+## The Screen Transition Is the Long Game {#screens}
 
 Here's the uncomfortable reality: around ages 9 to 11, peer pressure around gaming and social media becomes a real force. Children who've built strong reading habits before this window are far more likely to maintain them through it.
 
