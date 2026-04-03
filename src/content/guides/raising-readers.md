@@ -14,8 +14,6 @@ sections:
     title: "3. Don't Stop Reading Aloud"
   - id: progression
     title: "4. Build a Progression"
-  - id: book-list
-    title: "The Reading Progression List"
   - id: metrics
     title: "5. Measure What Matters"
   - id: screens
@@ -136,7 +134,7 @@ Worth noting: the progression below is rooted in the English-language Western ca
 
 ---
 
-## The Reading Progression List {#book-list}
+### The Reading Progression List {#book-list}
 
 This is the actual sequence I'm running with my daughters, updated as we go. Use it as a reference, not a prescription.
 
