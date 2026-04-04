@@ -15,7 +15,7 @@ Responnya sopan. Tapi itu cuma angkat bahu.
 
 Aku nggak maksa. Tapi pulang ke rumah aku terus mikirinnya, karena aku sadar aku belum pernah beneran jelasin kenapa kami buat pilihan itu. Bukan dengan cara yang masuk akal buat orang yang lagi optimasi untuk ujian akhir tahun.
 
-Bukan berarti kami nggak kerjain matematika dan Bahasa Inggris. Kami juga lakuin itu. Tapi kami juga lagi mecahin sesuatu yang lain. Dan ini adalah usahaku untuk jelasin apa itu.
+Bukan berarti kami nggak kerjain matematika dan Bahasa Inggris. Kami juga lakuin itu. Tapi kami juga lagi ngerjain hal yang lain. Dan ini adalah usahaku untuk jelasin apa itu.
 
 Tahun lalu aku baca The Anxious Generation karya Jonathan Haidt. Kalau kamu orang tua dengan anak kecil dan belum bacanya, aku taruh itu di urutan teratas daftar bacaan.
 
@@ -29,7 +29,7 @@ Ada pepatah Mandarin yang tumbuh bersama generasi orang tuaku: 富养女，穷�
 
 Besarkan anak perempuan dengan kelimpahan. Besarkan anak laki-laki dengan kesulitan.
 
-Kedengarannya aneh dalam bahasa Indonesia, dan gampang disalahartiin sebagai soal uang. Bukan itu. "Kelimpahan" yang dimaksud adalah berlimpahnya cinta, perhatian, budaya, dan kehalusan budi. Membangun dunia batin seorang perempuan supaya ia mengembangkan selera, rasa percaya diri, dan keanggunan. Sementara "kesulitan" untuk anak laki-laki itu soal membangun ketahanan dan semangat juang lewat perjuangan. Kebutuhan berbeda, pendekatan berbeda.
+Kedengarannya aneh dalam bahasa Indonesia, dan gampang disalahartiin sebagai soal uang. Bukan itu. "Kelimpahan" yang dimaksud adalah berlimpahnya cinta, perhatian, budaya, dan kehalusan budi. Membangun dunia batin seorang perempuan supaya dia mengembangkan selera, rasa percaya diri, dan keanggunan. Sementara "kesulitan" untuk anak laki-laki itu soal membangun ketahanan dan semangat juang lewat perjuangan. Kebutuhan berbeda, pendekatan berbeda.
 
 Soal anak laki-laki aku simpen untuk lain waktu. Ada keponakan laki-laki yang akan segera lahir dan artikel itu sudah terbentuk di kepalaku. Yang ini tentang anak perempuan.
 
@@ -37,7 +37,7 @@ Psikologi di balik 富养女 sebenarnya didukung dengan baik oleh penelitian mod
 
 Jawaban itu sudah diulang ke mereka dalam cara-cara kecil sehari-hari jauh sebelum ponsel pernah masuk ke dalam gambar. Jadi waktu media sosial datang dan mulai jalanin loop perbandingannya, mereka punya fondasi. Perih, tapi nggak mengguncang. Identitas mereka nggak bergantung pada metrik.
 
-Anak perempuan tanpa fondasi itu masuk ke lingkungan yang sama dalam keadaan lapar. Ia belum dapat jawaban yang jelas dan konsisten atas pertanyaan yang sama itu. Jadi ia carinya, dalam jumlah followers, dalam respons anak laki-laki terhadapnya, dalam apakah ia masuk atau keluar dari grup chat yang tepat. Platformnya sama. Kerentanannya berbeda.
+Anak perempuan tanpa fondasi itu masuk ke lingkungan yang sama dalam keadaan lapar. Dia belum dapat jawaban yang jelas dan konsisten atas pertanyaan yang sama itu. Jadi dia carinya, dalam jumlah followers, dalam respons anak laki-laki terhadapnya, dalam apakah dia masuk atau keluar dari grup chat yang tepat. Platformnya sama. Kerentanannya berbeda.
 
 Aku mau spesifik soal apa arti kelimpahan di rumah kami, karena ini bukan soal gestur besar.
 
@@ -47,13 +47,13 @@ Istriku dan aku sering ngomongin ini. Banyak banget yang kita lihat pada anak pe
 
 Peran ayah penting dengan cara yang spesifik yang makin banyak aku pikirin seiring mereka tumbuh. Hubungan seorang anak perempuan dengan ayahnya pada dasarnya adalah pengalaman pertamanya tentang bagaimana seorang laki-laki memandangnya. Kalau pengalaman itu konsisten, kamu dihargai, kamu menarik, kamu layak dapat perhatian penuhku, ia membangun titik referensi.
 
-Nanti, waktu ia ketemu seseorang yang ceroboh dengan perasaannya atau nggak konsisten dalam cara ia memperlakukannya, ada sesuatu dalam dirinya yang akan ngenali kesenjangan itu. Kesenjangan itu protektif. Ia punya tolok ukur untuk apa rasanya beneran dihargai oleh seorang laki-laki. Ia nggak perlu nebak.
+Nanti, waktu dia ketemu seseorang yang ceroboh dengan perasaannya atau nggak konsisten dalam cara dia memperlakukannya, ada sesuatu dalam dirinya yang akan ngenali kesenjangan itu. Kesenjangan itu protektif. Dia punya tolok ukur untuk apa rasanya beneran dihargai oleh seorang laki-laki. Dia nggak perlu nebak.
 
 Itu yang coba aku bangun. Bukan kesempurnaan. Aku sering salah. Tapi konsistensi. Hadir cukup sering sehingga pesannya tersampaikan.
 
 Sebagian besar enrichment di Singapura dioptimalkan untuk performa akademis. Aku ngerti logikanya. Sistem ini menghargai nilai. Nilai buka pintu. Ini nggak salah.
 
-Tapi aku juga mikirinnya seperti apa anak perempuanku di usia 15, 22, 30. Dan waktu aku mikirinnya, aku nemu diriku lebih sedikit khawatir apakah mereka bisa selesaiin persamaan x, dan lebih banyak khawatir apakah mereka tau cara bawa diri mereka di dalam sebuah ruangan, apakah mereka punya hubungan dengan tubuh dan suara mereka sendiri, apakah mereka punya sesuatu di dalam diri yang bisa jaga mereka tetap teguh waktu tekanan dari luar lagi nyoba bentuk ulang mereka.
+Tapi aku juga mikirinnya seperti apa anak perempuanku di usia 15, 22, 30. Dan waktu aku mikirinnya, aku malah lebih sedikit khawatir apakah mereka bisa selesaiin persamaan x, dan lebih banyak khawatir apakah mereka tau cara bawa diri mereka di dalam sebuah ruangan, apakah mereka punya hubungan dengan tubuh dan suara mereka sendiri, apakah mereka punya sesuatu di dalam diri yang bisa jaga mereka tetap teguh waktu tekanan dari luar lagi nyoba bentuk ulang mereka.
 
 Public speaking ngajarin mereka berpikir cepat dan narik perhatian tanpa minta maaf. Tari Mandarin kasih mereka disiplin fisik, akar budaya, dan kesadaran akan tubuh mereka yang nggak ada hubungannya dengan cara mereka keliatan di mata orang lain. Piano bangun kesabaran, ketepatan, dan kepuasan khusus dari bikin hal-hal susah jadi bener lewat usaha yang berkelanjutan.
 
