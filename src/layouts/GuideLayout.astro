@@ -2,15 +2,22 @@
 import BaseLayout from './BaseLayout.astro';
 import KofiNote from '../components/KofiNote.astro';
 
+interface LangToggle {
+  en: string;
+  id: string | null;
+  active: 'en' | 'id';
+}
+
 interface Props {
   title: string;
   description: string;
   lastUpdated: Date;
   sections: { id: string; title: string }[];
   lang?: 'en' | 'id';
+  langToggle?: LangToggle;
 }
 
-const { title, description, lastUpdated, sections, lang = 'en' } = Astro.props;
+const { title, description, lastUpdated, sections, lang = 'en', langToggle } = Astro.props;
 
 const formattedDate = lastUpdated.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -19,7 +26,7 @@ const formattedDate = lastUpdated.toLocaleDateString('en-US', {
 });
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} lang={lang} langToggle={langToggle}>
   <div class="guide-wrapper">
     <aside class="guide-sidebar">
       <nav aria-label="Guide sections">

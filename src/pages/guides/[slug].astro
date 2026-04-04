@@ -3,18 +3,34 @@ import { getCollection, render } from 'astro:content';
 import GuideLayout from '../../layouts/GuideLayout.astro';
 
 export async function getStaticPaths() {
-  const guides = await getCollection('guides', (g) => !g.data.draft && !g.id.endsWith('.id.md'));
-  return guides.map((guide) => ({
-    params: { slug: guide.id.replace(/\.md$/, '') },
-    props: { guide },
-  }));
+  const allGuides = await getCollection('guides', (g) => !g.data.draft);
+  const enGuides = allGuides.filter((g) => !g.id.endsWith('.id.md'));
+  const idSlugs = new Set(
+    allGuides
+      .filter((g) => g.id.endsWith('.id.md'))
+      .map((g) => g.id.replace(/\.id\.md$/, ''))
+  );
+  return enGuides.map((guide) => {
+    const slug = guide.id.replace(/\.md$/, '');
+    return {
+      params: { slug },
+      props: {
+        guide,
+        langToggle: {
+          en: '',
+          id: idSlugs.has(slug) ? `/id/guides/${slug}` : null,
+          active: 'en' as const,
+        },
+      },
+    };
+  });
 }
 
-const { guide } = Astro.props;
+const { guide, langToggle } = Astro.props;
 const { title, description, lastUpdated, sections } = guide.data;
 const { Content } = await render(guide);
 ---
 
-<GuideLayout title={title} description={description} lastUpdated={lastUpdated} sections={sections}>
+<GuideLayout title={title} description={description} lastUpdated={lastUpdated} sections={sections} langToggle={langToggle}>
   <Content />
 </GuideLayout>

@@ -6,7 +6,12 @@ const allGuides = await getCollection('guides', (g) => !g.data.draft && g.id.end
 const guides = allGuides.sort((a, b) => b.data.lastUpdated.valueOf() - a.data.lastUpdated.valueOf());
 ---
 
-<BaseLayout title="Panduan" description="Referensi terstruktur tentang parenting, keuangan, dan AI.">
+<BaseLayout
+  title="Panduan"
+  description="Referensi terstruktur tentang parenting, keuangan, dan AI."
+  lang="id"
+  langToggle={{ en: '/guides', id: '', active: 'id' }}
+>
   <div class="page-title">
     <h1>Panduan</h1>
     <p class="page-intro">Referensi terstruktur, selalu diperbarui seiring waktu.</p>
