@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allGuides = await getCollection('guides', (g) => !g.data.draft && g.id.endsWith('.id.md'));
+const guides = allGuides.sort((a, b) => b.data.lastUpdated.valueOf() - a.data.lastUpdated.valueOf());
+---
+
+<BaseLayout title="Panduan" description="Referensi terstruktur tentang parenting, keuangan, dan AI.">
+  <div class="page-title">
+    <h1>Panduan</h1>
+    <p class="page-intro">Referensi terstruktur, selalu diperbarui seiring waktu.</p>
+  </div>
+
+  <div class="post-list">
+    {guides.map((guide) => {
+      const slug = guide.id.replace(/\.id\.md$/, '');
+      const formattedDate = guide.data.lastUpdated.toLocaleDateString('id-ID', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      return (
+        <div class="post-card">
+          <a href={`/id/guides/${slug}`} class="post-card__title">{guide.data.title}</a>
+          <p class="post-card__desc">{guide.data.description}</p>
+          <p class="post-card__meta">Diperbarui {formattedDate}</p>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>

@@ -180,6 +180,19 @@ Worth noting: the progression below is rooted in the English-language Western ca
 
 This is the actual sequence I'm running with my daughters, updated as we go. Use it as a reference, not a prescription.
 
+**Ages 5 to 7: Early chapter books**
+The bridge from picture books to independent reading. The format does the work here: thin books, large fonts, a third of the page given over to illustrations, short chapters that create constant completion hits. The goal isn't literary depth; it's building the identity of someone who finishes books on their own.
+
+This phase is what made independent reading click for my daughters. The physical design of these books removes the intimidation factor entirely. A child who picks up a Geronimo Stilton and sees coloured text, funny fonts, and pictures every few pages does not feel like they are doing schoolwork. They feel like they are reading something made for them.
+
+| Author / Series | Where to start | Notes |
+|---|---|---|
+| Geronimo Stilton | Any early title | Distinctive coloured text and font changes; cleverly designed for early readers |
+| Magic Tree House | Book 1: Dinosaurs Before Dark | Short chapters, consistent format, huge back catalogue to work through |
+| Dragon Girls | Book 1: Azmina the Gold Glitter Dragon | High appeal for girls; thin and fast to finish, builds completion confidence |
+| David Walliams | The World's Worst Children | Funny, slightly irreverent, great for reluctant readers |
+| Enid Blyton (Famous Five Adventures) | Five on a Treasure Island | Shorter and simpler than the main Famous Five; a natural stepping stone |
+
 **Ages 6 to 8: Author catalogues**
 Build volume and habit. Prioritise fun and completion over difficulty.
 
