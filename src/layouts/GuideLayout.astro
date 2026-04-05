@@ -20,11 +20,14 @@ interface Props {
 
 const { title, description, lastUpdated, sections, lang = 'en', langToggle } = Astro.props;
 
-const formattedDate = lastUpdated.toLocaleDateString('en-US', {
+const dateLocale = lang === 'id' ? 'id-ID' : lang === 'zh' ? 'zh-CN' : 'en-US';
+const formattedDate = lastUpdated.toLocaleDateString(dateLocale, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
+const lastUpdatedLabel = lang === 'id' ? 'Terakhir diperbarui:' : lang === 'zh' ? '最后更新：' : 'Last updated:';
+const jumpLabel = lang === 'id' ? 'Lompat ke bagian' : lang === 'zh' ? '跳转到章节' : 'Jump to section';
 ---
 
 <BaseLayout title={title} description={description} lang={lang} langToggle={langToggle}>
@@ -41,8 +44,8 @@ const formattedDate = lastUpdated.toLocaleDateString('en-US', {
 
     <article class="guide-article">
       <div class="guide-jump">
-        <select aria-label="Jump to section" id="guide-jump-select">
-          <option value="">Jump to section</option>
+        <select aria-label={jumpLabel} id="guide-jump-select">
+          <option value="">{jumpLabel}</option>
           {sections.map((section) => (
             <option value={section.id}>{section.title}</option>
           ))}
@@ -51,7 +54,7 @@ const formattedDate = lastUpdated.toLocaleDateString('en-US', {
 
       <header class="guide-header">
         <h1>{title}</h1>
-        <p class="guide-updated">Last updated: {formattedDate}</p>
+        <p class="guide-updated">{lastUpdatedLabel} {formattedDate}</p>
         <p class="guide-lead">{description}</p>
       </header>
 
