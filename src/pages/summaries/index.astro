@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allSummaries = await getCollection('summaries', (s) => !s.data.draft && !s.id.endsWith('.id.md'));
+const summaries = allSummaries.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Summaries"
+  description="Short distillations of books, articles, and ideas."
+  langToggle={{ en: '', id: '/id/summaries', active: 'en' }}
+>
+  <div class="page-title">
+    <h1>Summaries</h1>
+    <p class="page-intro">Short distillations of books, articles, and ideas.</p>
+  </div>
+
+  <div class="post-list">
+    {summaries.map((summary) => {
+      const slug = summary.id.replace(/\.md$/, '');
+      const formattedDate = summary.data.date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      return (
+        <div class="post-card">
+          <a href={`/summaries/${slug}`} class="post-card__title">{summary.data.title}</a>
+          <p class="post-card__desc">{summary.data.author} · {summary.data.year}</p>
+          <p class="post-card__meta">{formattedDate}</p>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>

@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allSummaries = await getCollection('summaries', (s) => !s.data.draft && !s.id.endsWith('.id.md'));
+  const idSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.id.md'));
+  const idSlugSet = new Set(idSummaries.map((s) => s.id.replace(/\.id\.md$/, '')));
+
+  return allSummaries.map((summary) => {
+    const slug = summary.id.replace(/\.md$/, '');
+    const hasId = idSlugSet.has(slug);
+    return {
+      params: { slug },
+      props: {
+        summary,
+        langToggle: {
+          en: '',
+          id: hasId ? `/id/summaries/${slug}` : null,
+          active: 'en' as const,
+        },
+      },
+    };
+  });
+}
+
+const { summary, langToggle } = Astro.props;
+const { title, author, year } = summary.data;
+const { Content } = await summary.render();
+---
+
+<BaseLayout title={title} description={`${author} (${year})`} langToggle={langToggle}>
+  <article>
+    <header class="post-header">
+      <h1>{title}</h1>
+      <p class="post-date">{author} · {year}</p>
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

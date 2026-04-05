@@ -25,4 +25,17 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { blog, guides };
+const summaries = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    author: z.string(),
+    year: z.number(),
+    tags: z.array(z.string()),
+    type: z.string().optional(),
+    date: z.coerce.date(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { blog, guides, summaries };
