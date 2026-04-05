@@ -8,6 +8,8 @@ sections:
     title: Why This Matters
   - id: culture
     title: "The Culture Underneath the Tactics"
+  - id: foundation
+    title: "The Foundation: Before They Could Read"
   - id: environment
     title: "Environment Is the Strategy"
   - id: format
@@ -69,6 +71,26 @@ Research from Cincinnati Children's Hospital found that regions in the brain ass
 The second half of the modelling equation is what your children see you doing on your own. My wife reads novels. I read business books, history, and nonfiction. We do not hide this or make a performance of it. It is just what we do in the evenings and on weekends. For younger children the effect is direct: if the adults in a household reach for books the way other households reach for their phones, children absorb that as the definition of normal.
 
 You cannot manufacture this culture overnight. But you can start it at any point, and the earlier the better.
+
+---
+
+## The Foundation: Before They Could Read {#foundation}
+
+Everything in this guide assumes your child can already read independently. But that capability does not appear on its own, and I want to be specific about what we did to get there, because this part is often the most underestimated.
+
+At around age five, we enrolled our daughters in phonics class. English is unusual in a way that Mandarin simply is not. Once a child understands phonics, once they know how sounds map to letters, they can attempt almost any English word. They might not know what it means, but they can read it, finish the sentence, and the meaning builds gradually through context and repetition. That unlocking mechanism does not exist in Chinese, where every character has to be memorised individually. For English, phonics is the key that opens everything else.
+
+The real inflection point was the I Can Read enrichment program at their centre in Hougang.
+
+I want to be specific about how this program works, because I think parents sometimes underestimate what is actually involved. Before the curriculum even begins, the teacher assesses whether your child is ready. They need to demonstrate basic phonics competency, that they can sound out letters and make the effort to pronounce correctly out loud. Only when the teacher decides they are ready does the actual curriculum start. Some children get there quickly. Others take longer. There is no shortcut.
+
+The curriculum itself takes roughly a year. Whether your child finishes on time depends heavily on what happens outside the classroom, because the class is only once a week. The teacher made this clear to us early on. There is only so much they can do in a single session. The real work is the daily practice at home.
+
+My wife and I took that seriously. Short sessions, every day, consistent. It was not always easy. There were days when everyone was tired or resistant, and keeping the rhythm going felt like a small act of discipline for the adults as much as for the kids. But we kept at it. The teacher kept assessing. Slowly, the girls moved through the levels.
+
+Completing that program was, I think, the single most important thing we did. Not the colouring books we carried to restaurants, not the bedtime stories, not even the phonics class itself, though all of those built toward it. What the program produces is not just a child who can decode words. It is a child who reads because they want to, because the act has become accessible and satisfying rather than effortful.
+
+By the time our daughters entered Primary 1, they could read independently. That is what made everything that came after possible.
 
 ---
 

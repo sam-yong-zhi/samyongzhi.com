@@ -8,6 +8,8 @@ sections:
     title: Kenapa Ini Penting
   - id: culture
     title: "Budaya di Balik Semua Taktik"
+  - id: foundation
+    title: "Fondasi: Sebelum Mereka Bisa Membaca Sendiri"
   - id: environment
     title: "Lingkungan Adalah Strateginya"
   - id: format
@@ -69,6 +71,26 @@ Penelitian dari Cincinnati Children's Hospital menemukan bahwa bagian otak yang 
 Bagian kedua dari persamaan pemodelan adalah apa yang dilihat anakmu kamu lakukan sendiri. Istriku baca novel. Aku baca buku bisnis, sejarah, dan nonfiksi. Kami nggak menyembunyikan ini atau mempertontonkannya. Itu memang yang kami lakukan di malam hari dan akhir pekan. Untuk anak kecil efeknya langsung: kalau orang dewasa di rumah meraih buku seperti rumah tangga lain meraih ponsel mereka, anak-anak menyerap itu sebagai definisi normal.
 
 Kamu nggak bisa menciptakan budaya ini dalam semalam. Tapi kamu bisa memulainya kapan saja, dan semakin awal semakin baik.
+
+---
+
+## Fondasi: Sebelum Mereka Bisa Membaca Sendiri {#foundation}
+
+Semua yang ada di panduan ini mengasumsikan anakmu sudah bisa membaca secara mandiri. Tapi kemampuan itu nggak muncul begitu saja, dan aku ingin spesifik soal apa yang kami lakukan untuk sampai ke sana, karena bagian ini sering kali paling diremehkan.
+
+Sekitar usia lima tahun, kami mendaftarkan anak-anak ke kelas fonik. Bahasa Inggris itu unik dengan cara yang bahasa Mandarin nggak punya. Begitu anak paham fonik, begitu mereka tahu bagaimana bunyi memetakan ke huruf, mereka bisa mencoba hampir semua kata bahasa Inggris. Mungkin mereka nggak tahu artinya, tapi mereka bisa membacanya, menyelesaikan kalimat, dan maknanya perlahan-lahan terbangun melalui konteks dan pengulangan. Mekanisme pembuka itu nggak ada di bahasa Mandarin, di mana setiap karakter harus dihafal satu per satu. Untuk bahasa Inggris, fonik adalah kunci yang membuka segalanya.
+
+Titik infleksi yang sebenarnya adalah program enrichment I Can Read di pusat mereka di Hougang.
+
+Aku ingin spesifik soal bagaimana program ini bekerja, karena aku rasa orang tua kadang meremehkan apa yang sebenarnya terlibat. Sebelum kurikulum bahkan dimulai, guru menilai apakah anakmu siap. Mereka perlu menunjukkan kompetensi fonik dasar, bahwa mereka bisa mengeja huruf dan berusaha mengucapkan dengan benar secara lisan. Hanya ketika guru memutuskan mereka siap, kurikulum yang sesungguhnya dimulai. Ada anak yang sampai ke sana dengan cepat, ada yang butuh lebih lama. Nggak ada jalan pintas.
+
+Kurikulumnya sendiri butuh sekitar satu tahun. Apakah anakmu selesai tepat waktu sangat bergantung pada apa yang terjadi di luar kelas, karena kelasnya hanya seminggu sekali. Guru memberi tahu kami ini dari awal. Hanya ada begitu banyak yang bisa mereka lakukan dalam satu sesi. Kerja nyatanya adalah latihan harian di rumah.
+
+Aku dan istriku menganggap itu serius. Sesi singkat, setiap hari, konsisten. Nggak selalu mudah. Ada hari-hari ketika semua orang lelah atau menolak, dan menjaga ritme itu terasa seperti tindakan disiplin kecil bagi orang dewasa, sebanyak bagi anak-anak. Tapi kami terus melakukannya. Guru terus menilai. Perlahan-lahan, anak-anak bergerak melalui level demi level.
+
+Menyelesaikan program itu, menurutku, adalah hal paling penting yang kami lakukan. Bukan buku mewarnai yang kami bawa ke restoran, bukan cerita sebelum tidur, bahkan bukan kelas fonik itu sendiri, meski semuanya membangun ke arah itu. Yang dihasilkan program ini bukan sekadar anak yang bisa menguraikan kata-kata, tapi anak yang membaca karena mereka mau, karena tindakan itu sudah menjadi mudah dan memuaskan daripada melelahkan.
+
+Saat anak-anakku masuk kelas satu, mereka sudah bisa membaca secara mandiri. Itulah yang membuat segalanya yang datang setelahnya menjadi mungkin.
 
 ---
 
