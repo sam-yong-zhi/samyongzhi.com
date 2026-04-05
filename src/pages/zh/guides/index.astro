@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allGuides = await getCollection('guides', (g) => !g.data.draft && g.id.endsWith('.zh.md'));
+const guides = allGuides.sort((a, b) => b.data.lastUpdated.valueOf() - a.data.lastUpdated.valueOf());
+---
+
+<BaseLayout
+  title="指南"
+  description="关于育儿、财务和 AI 的结构化参考资料。"
+  lang="zh"
+  langToggle={{ en: '/guides', id: '/id/guides', zh: '', active: 'zh' }}
+>
+  <div class="page-title">
+    <h1>指南</h1>
+    <p class="page-intro">结构化的参考资料，随时间持续更新。</p>
+  </div>
+
+  <div class="post-list">
+    {guides.map((guide) => {
+      const slug = guide.id.replace(/\.zh\.md$/, '');
+      const formattedDate = guide.data.lastUpdated.toLocaleDateString('zh-CN', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      return (
+        <div class="post-card">
+          <a href={`/zh/guides/${slug}`} class="post-card__title">{guide.data.title}</a>
+          <p class="post-card__desc">{guide.data.description}</p>
+          <p class="post-card__meta">更新于 {formattedDate}</p>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>

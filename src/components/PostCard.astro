@@ -4,10 +4,10 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   post: CollectionEntry<'blog'>;
-  lang?: 'en' | 'id';
+  lang?: 'en' | 'id' | 'zh';
 }
 
-function idToSlug(id: string) { return id.replace(/\.(en|id)\.md$/, ''); }
+function idToSlug(id: string) { return id.replace(/\.(en|id|zh)\.md$/, ''); }
 
 const { post, lang = 'en' } = Astro.props;
 const { title, date, categories, description } = post.data;
@@ -20,6 +20,8 @@ const formattedDate = date.toLocaleDateString('en-US', {
 
 const href = lang === 'id'
   ? `/id/blog/${idToSlug(post.id)}`
+  : lang === 'zh'
+  ? `/zh/blog/${idToSlug(post.id)}`
   : `/blog/${idToSlug(post.id)}`;
 ---
 

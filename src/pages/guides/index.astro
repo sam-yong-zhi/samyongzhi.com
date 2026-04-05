@@ -2,14 +2,14 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const allGuides = await getCollection('guides', (g) => !g.data.draft && !g.id.endsWith('.id.md'));
+const allGuides = await getCollection('guides', (g) => !g.data.draft && !g.id.endsWith('.id.md') && !g.id.endsWith('.zh.md'));
 const guides = allGuides.sort((a, b) => b.data.lastUpdated.valueOf() - a.data.lastUpdated.valueOf());
 ---
 
 <BaseLayout
   title="Guides"
   description="Structured, evergreen references on parenting, money, and AI."
-  langToggle={{ en: '', id: '/id/guides', active: 'en' }}
+  langToggle={{ en: '', id: '/id/guides', zh: '/zh/guides', active: 'en' }}
 >
   <div class="page-title">
     <h1>Guides</h1>

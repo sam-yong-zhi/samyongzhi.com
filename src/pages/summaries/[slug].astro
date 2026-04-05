@@ -3,20 +3,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const allSummaries = await getCollection('summaries', (s) => !s.data.draft && !s.id.endsWith('.id.md'));
+  const allSummaries = await getCollection('summaries', (s) => !s.data.draft && !s.id.endsWith('.id.md') && !s.id.endsWith('.zh.md'));
   const idSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.id.md'));
+  const zhSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.zh.md'));
   const idSlugSet = new Set(idSummaries.map((s) => s.id.replace(/\.id\.md$/, '')));
+  const zhSlugSet = new Set(zhSummaries.map((s) => s.id.replace(/\.zh\.md$/, '')));
 
   return allSummaries.map((summary) => {
     const slug = summary.id.replace(/\.md$/, '');
-    const hasId = idSlugSet.has(slug);
     return {
       params: { slug },
       props: {
         summary,
         langToggle: {
           en: '',
-          id: hasId ? `/id/summaries/${slug}` : null,
+          id: idSlugSet.has(slug) ? `/id/summaries/${slug}` : null,
+          zh: zhSlugSet.has(slug) ? `/zh/summaries/${slug}` : null,
           active: 'en' as const,
         },
       },

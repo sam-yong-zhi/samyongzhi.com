@@ -2,7 +2,8 @@
 interface LangToggle {
   en: string;
   id: string | null;
-  active: 'en' | 'id';
+  zh: string | null;
+  active: 'en' | 'id' | 'zh';
 }
 
 interface Props {
@@ -12,8 +13,16 @@ interface Props {
 const { langToggle } = Astro.props;
 
 const isId = langToggle?.active === 'id';
+const isZh = langToggle?.active === 'zh';
 
-const nav = isId
+const nav = isZh
+  ? [
+      { label: '关于', href: '/zh/about' },
+      { label: '博客', href: '/zh/blog' },
+      { label: '指南', href: '/zh/guides' },
+      { label: '书摘', href: '/zh/summaries' },
+    ]
+  : isId
   ? [
       { label: 'Tentang', href: '/id/about' },
       { label: 'Blog', href: '/id/blog' },
@@ -30,7 +39,7 @@ const nav = isId
 
 <header class="site-header">
   <div class="container">
-    <a href={isId ? '/id/' : '/'} class="site-name" aria-label="Home">
+    <a href={isZh ? '/zh/' : isId ? '/id/' : '/'} class="site-name" aria-label="Home">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
         <polyline points="9 22 9 12 15 12 15 22"/>
@@ -63,6 +72,13 @@ const nav = isId
             : langToggle.id !== null
               ? <a href={langToggle.id} class="lang-toggle__link">ID</a>
               : <span class="lang-toggle__disabled">ID</span>
+          }
+          <span class="lang-toggle__sep" aria-hidden="true">/</span>
+          {langToggle.active === 'zh'
+            ? <span class="lang-toggle__active">中文</span>
+            : langToggle.zh !== null
+              ? <a href={langToggle.zh} class="lang-toggle__link">中文</a>
+              : <span class="lang-toggle__disabled">中文</span>
           }
         </div>
       )}

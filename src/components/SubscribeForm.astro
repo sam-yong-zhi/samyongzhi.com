@@ -1,6 +1,6 @@
 ---
 interface Props {
-  lang?: 'en' | 'id';
+  lang?: 'en' | 'id' | 'zh';
 }
 const { lang = 'en' } = Astro.props;
 
@@ -10,19 +10,25 @@ const formUrl = lang === 'id'
 
 const promptText = lang === 'id'
   ? 'Suka tulisan ini? Dapatkan postingan baru lewat email.'
+  : lang === 'zh'
+  ? '喜欢这篇文章？通过邮件获取新文章。'
   : 'Enjoyed this? Get new posts by email.';
 
-const btnText = lang === 'id' ? 'Langganan' : 'Subscribe';
-const subscribingText = lang === 'id' ? 'Mendaftar\u2026' : 'Subscribing\u2026';
-const subscribedText = lang === 'id' ? 'Terdaftar' : 'Subscribed';
-const placeholder = lang === 'id' ? 'kamu@contoh.com' : 'you@example.com';
+const btnText = lang === 'id' ? 'Langganan' : lang === 'zh' ? '订阅' : 'Subscribe';
+const subscribingText = lang === 'id' ? 'Mendaftar\u2026' : lang === 'zh' ? '订阅中\u2026' : 'Subscribing\u2026';
+const subscribedText = lang === 'id' ? 'Terdaftar' : lang === 'zh' ? '已订阅' : 'Subscribed';
+const placeholder = lang === 'id' ? 'kamu@contoh.com' : lang === 'zh' ? 'you@example.com' : 'you@example.com';
 
 const successText = lang === 'id'
   ? 'Kamu sudah terdaftar. Cek inbox-mu untuk email konfirmasi. Kalau masuk spam, tandai bukan spam dan kamu siap.'
+  : lang === 'zh'
+  ? '已订阅。请查收确认邮件。如果进了垃圾箱，标记为非垃圾邮件就好。'
   : "You're in. Check your inbox for a confirmation email. If it lands in spam, mark it as not spam and you'll be all set.";
 
 const errorText = lang === 'id'
   ? 'Ada yang salah. Coba lagi.'
+  : lang === 'zh'
+  ? '出了点问题，请再试一次。'
   : 'Something went wrong. Try again.';
 ---
 

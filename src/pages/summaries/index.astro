@@ -2,14 +2,14 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const allSummaries = await getCollection('summaries', (s) => !s.data.draft && !s.id.endsWith('.id.md'));
+const allSummaries = await getCollection('summaries', (s) => !s.data.draft && !s.id.endsWith('.id.md') && !s.id.endsWith('.zh.md'));
 const summaries = allSummaries.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <BaseLayout
   title="Summaries"
   description="Short distillations of books, articles, and ideas."
-  langToggle={{ en: '', id: '/id/summaries', active: 'en' }}
+  langToggle={{ en: '', id: '/id/summaries', zh: '/zh/summaries', active: 'en' }}
 >
   <div class="page-title">
     <h1>Summaries</h1>

@@ -1,6 +1,6 @@
 ---
 interface Props {
-  lang?: 'en' | 'id';
+  lang?: 'en' | 'id' | 'zh';
 }
 const { lang = 'en' } = Astro.props;
 
@@ -8,13 +8,21 @@ const url = lang === 'id' ? 'https://saweria.co/al1cel' : 'https://ko-fi.com/sam
 
 const line1 = lang === 'id'
   ? 'Kalau tulisan ini kasih kamu ide baru, sedikit pencerahan, atau sekadar terasa relate, kamu bisa traktir aku kopi virtual di Saweria.'
+  : lang === 'zh'
+  ? '如果这篇文章让你有所收获，欢迎请我喝杯虚拟咖啡。'
   : 'If this post resonates with you or gives you something useful to think about, you can buy me a virtual coffee on Ko-fi.';
 
 const line2 = lang === 'id'
   ? 'Lumayan buat bantu website ini tetap jalan dan aku bisa terus nulis.'
+  : lang === 'zh'
+  ? '这能帮我维持写作，也让这个小角落继续运转。'
   : 'It helps support the writing and keeps this little corner of the internet going.';
 
-const linkText = lang === 'id' ? 'Traktir aku kopi virtual ☕' : 'Buy me a virtual coffee ☕';
+const linkText = lang === 'id'
+  ? 'Traktir aku kopi virtual ☕'
+  : lang === 'zh'
+  ? '请我喝杯虚拟咖啡 ☕'
+  : 'Buy me a virtual coffee ☕';
 ---
 
 <div class="kofi-note">

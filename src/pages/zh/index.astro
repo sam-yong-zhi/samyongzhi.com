@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.zh.md'));
+const latestPosts = allPosts
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
+---
+
+<BaseLayout
+  title="Sam Yong Zhi"
+  description="双胞胎女孩的爸爸。写育儿、财务和 AI 的事。"
+  lang="zh"
+  langToggle={{ en: '/', id: '/id/', zh: '', active: 'zh' }}
+>
+  <div class="hero">
+    <h1>Sam Yong Zhi</h1>
+    <p class="tagline">
+      双胞胎女孩的爸爸，试着把她们养大，送进一个我还看不清楚的世界。
+      我写育儿、家庭财务，以及 AI 正在对我们的孩子和职业做什么。
+    </p>
+  </div>
+
+  <div class="section-block">
+    <p class="section-heading">最新</p>
+    <div class="post-list">
+      {latestPosts.map((post) => <PostCard post={post} lang="zh" />)}
+    </div>
+  </div>
+
+  <div class="section-block">
+    <p class="section-heading">话题</p>
+    <ul class="topics-nav">
+      <li><a href="/zh/parenting">育儿</a></li>
+      <li><a href="/zh/money">财务</a></li>
+      <li><a href="/zh/ai-and-work">AI 与职场</a></li>
+    </ul>
+  </div>
+</BaseLayout>

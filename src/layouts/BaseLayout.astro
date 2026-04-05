@@ -6,13 +6,14 @@ import '../styles/global.css';
 interface LangToggle {
   en: string;
   id: string | null;
-  active: 'en' | 'id';
+  zh: string | null;
+  active: 'en' | 'id' | 'zh';
 }
 
 interface Props {
   title: string;
   description?: string;
-  lang?: 'en' | 'id';
+  lang?: 'en' | 'id' | 'zh';
   langToggle?: LangToggle;
 }
 
@@ -23,13 +24,15 @@ const {
   langToggle,
 } = Astro.props;
 
+const htmlLang = lang === 'zh' ? 'zh-Hans' : lang;
+
 const siteName = 'Sam Yong Zhi';
 const pageTitle = title === siteName ? siteName : `${title} — ${siteName}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={htmlLang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

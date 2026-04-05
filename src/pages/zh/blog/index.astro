@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', (post) => !post.data.draft && post.id.endsWith('.zh.md'));
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="博客"
+  description="Sam Yong Zhi 关于育儿、财务和 AI 的全部文章。"
+  lang="zh"
+  langToggle={{ en: '/blog', id: '/id/blog', zh: '', active: 'zh' }}
+>
+  <div class="page-title">
+    <h1>全部文章</h1>
+  </div>
+
+  <ul class="filter-bar">
+    <li><a href="/zh/blog" class="active">全部</a></li>
+    <li><a href="/zh/parenting">育儿</a></li>
+    <li><a href="/zh/money">财务</a></li>
+    <li><a href="/zh/ai-and-work">AI 与职场</a></li>
+  </ul>
+
+  <div class="post-list">
+    {posts.map((post) => <PostCard post={post} lang="zh" />)}
+  </div>
+</BaseLayout>

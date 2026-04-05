@@ -1,31 +1,31 @@
 ---
 import { getCollection, render } from 'astro:content';
-import PostLayout from '../../layouts/PostLayout.astro';
+import PostLayout from '../../../layouts/PostLayout.astro';
 
 export async function getStaticPaths() {
   function idToSlug(id: string) { return id.replace(/\.(en|id|zh)\.md$/, ''); }
+  const zhPosts = await getCollection('blog', (post) =>
+    !post.data.draft && post.id.endsWith('.zh.md')
+  );
   const enPosts = await getCollection('blog', (post) =>
     !post.data.draft && post.id.endsWith('.en.md')
   );
   const idPosts = await getCollection('blog', (post) =>
     !post.data.draft && post.id.endsWith('.id.md')
   );
-  const zhPosts = await getCollection('blog', (post) =>
-    !post.data.draft && post.id.endsWith('.zh.md')
-  );
+  const enSlugs = new Set(enPosts.map((p) => idToSlug(p.id)));
   const idSlugs = new Set(idPosts.map((p) => idToSlug(p.id)));
-  const zhSlugs = new Set(zhPosts.map((p) => idToSlug(p.id)));
-  return enPosts.map((post) => {
+  return zhPosts.map((post) => {
     const slug = idToSlug(post.id);
     return {
       params: { slug },
       props: {
         post,
         langToggle: {
-          en: '',
+          en: enSlugs.has(slug) ? `/blog/${slug}` : '/',
           id: idSlugs.has(slug) ? `/id/blog/${slug}` : null,
-          zh: zhSlugs.has(slug) ? `/zh/blog/${slug}` : null,
-          active: 'en' as const,
+          zh: '',
+          active: 'zh' as const,
         },
       },
     };

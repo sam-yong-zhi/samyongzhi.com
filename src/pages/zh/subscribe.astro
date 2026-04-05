@@ -1,27 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-// import SubscribeForm from '../../components/SubscribeForm.astro';
 ---
 
 <BaseLayout
-  title="Traktir Aku Kopi"
-  description="Kalau ada tulisan di sini yang berguna buat kamu, kamu bisa traktir aku kopi virtual di Ko-fi buat bantu website ini tetap jalan."
-  lang="id"
-  langToggle={{ en: '/subscribe', id: '', zh: '/zh/subscribe', active: 'id' }}
+  title="请我喝杯咖啡"
+  description="如果这里的文章对你有用，欢迎在 Ko-fi 请我喝杯虚拟咖啡，支持我继续写作。"
+  lang="zh"
+  langToggle={{ en: '/subscribe', id: '/id/subscribe', zh: '', active: 'zh' }}
 >
   <div class="coffee-page">
-    <h1>Traktir Aku Kopi</h1>
+    <h1>请我喝杯咖啡</h1>
     <p>
-      Aku nulis soal parenting, keuangan keluarga, dan hidup yang lebih disengaja. Kalau ada
-      tulisan di sini yang berguna buat kamu, kamu bisa traktir aku kopi virtual di Ko-fi.
-      Nggak ada kewajiban. Ini cuma cara kecil buat bilang tulisannya ada manfaatnya.
+      我写育儿、家庭财务，以及如何更有意识地生活。如果这里的文章对你有帮助，
+      欢迎在 Ko-fi 请我喝杯虚拟咖啡。没有任何义务，只是一种小小的方式，
+      表示这些文字为你带来了一点收获。
     </p>
     <a
       href="https://ko-fi.com/samyongzhi"
       target="_blank"
       rel="noopener noreferrer"
       class="kofi-btn"
-    >Traktir aku kopi virtual ☕</a>
+    >请我喝杯虚拟咖啡 ☕</a>
   </div>
 </BaseLayout>
 

@@ -8,7 +8,8 @@ import type { CollectionEntry } from 'astro:content';
 interface LangToggle {
   en: string;
   id: string | null;
-  active: 'en' | 'id';
+  zh: string | null;
+  active: 'en' | 'id' | 'zh';
 }
 
 interface Props {
@@ -19,9 +20,9 @@ interface Props {
 const { post, langToggle } = Astro.props;
 const { title, date, categories, description } = post.data;
 
-const lang = post.id.endsWith('.id.md') ? 'id' : 'en';
+const lang = post.id.endsWith('.id.md') ? 'id' : post.id.endsWith('.zh.md') ? 'zh' : 'en';
 
-const formattedDate = date.toLocaleDateString(lang === 'id' ? 'id-ID' : 'en-US', {
+const formattedDate = date.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'zh' ? 'zh-CN' : 'en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',

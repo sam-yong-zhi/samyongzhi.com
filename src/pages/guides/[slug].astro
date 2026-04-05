@@ -4,11 +4,16 @@ import GuideLayout from '../../layouts/GuideLayout.astro';
 
 export async function getStaticPaths() {
   const allGuides = await getCollection('guides', (g) => !g.data.draft);
-  const enGuides = allGuides.filter((g) => !g.id.endsWith('.id.md'));
+  const enGuides = allGuides.filter((g) => !g.id.endsWith('.id.md') && !g.id.endsWith('.zh.md'));
   const idSlugs = new Set(
     allGuides
       .filter((g) => g.id.endsWith('.id.md'))
       .map((g) => g.id.replace(/\.id\.md$/, ''))
+  );
+  const zhSlugs = new Set(
+    allGuides
+      .filter((g) => g.id.endsWith('.zh.md'))
+      .map((g) => g.id.replace(/\.zh\.md$/, ''))
   );
   return enGuides.map((guide) => {
     const slug = guide.id.replace(/\.md$/, '');
@@ -19,6 +24,7 @@ export async function getStaticPaths() {
         langToggle: {
           en: '',
           id: idSlugs.has(slug) ? `/id/guides/${slug}` : null,
+          zh: zhSlugs.has(slug) ? `/zh/guides/${slug}` : null,
           active: 'en' as const,
         },
       },

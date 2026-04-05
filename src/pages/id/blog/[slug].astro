@@ -3,10 +3,14 @@ import { getCollection, render } from 'astro:content';
 import PostLayout from '../../../layouts/PostLayout.astro';
 
 export async function getStaticPaths() {
-  function idToSlug(id: string) { return id.replace(/\.(en|id)\.md$/, ''); }
+  function idToSlug(id: string) { return id.replace(/\.(en|id|zh)\.md$/, ''); }
   const posts = await getCollection('blog', (post) =>
     !post.data.draft && post.id.endsWith('.id.md')
   );
+  const zhPosts = await getCollection('blog', (post) =>
+    !post.data.draft && post.id.endsWith('.zh.md')
+  );
+  const zhSlugs = new Set(zhPosts.map((p) => idToSlug(p.id)));
   return posts.map((post) => {
     const slug = idToSlug(post.id);
     return {
@@ -16,6 +20,7 @@ export async function getStaticPaths() {
         langToggle: {
           en: `/blog/${slug}`,
           id: '',
+          zh: zhSlugs.has(slug) ? `/zh/blog/${slug}` : null,
           active: 'id' as const,
         },
       },

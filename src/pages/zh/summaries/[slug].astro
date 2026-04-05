@@ -3,21 +3,21 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const allSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.id.md'));
-  const zhSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.zh.md'));
-  const zhSlugs = new Set(zhSummaries.map((s) => s.id.replace(/\.zh\.md$/, '')));
+  const allSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.zh.md'));
+  const idSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.id.md'));
+  const idSlugSet = new Set(idSummaries.map((s) => s.id.replace(/\.id\.md$/, '')));
 
   return allSummaries.map((summary) => {
-    const slug = summary.id.replace(/\.id\.md$/, '');
+    const slug = summary.id.replace(/\.zh\.md$/, '');
     return {
       params: { slug },
       props: {
         summary,
         langToggle: {
           en: `/summaries/${slug}`,
-          id: '',
-          zh: zhSlugs.has(slug) ? `/zh/summaries/${slug}` : null,
-          active: 'id' as const,
+          id: idSlugSet.has(slug) ? `/id/summaries/${slug}` : null,
+          zh: '',
+          active: 'zh' as const,
         },
       },
     };
@@ -29,7 +29,7 @@ const { title, author, year } = summary.data;
 const { Content } = await summary.render();
 ---
 
-<BaseLayout title={title} description={`${author} (${year})`} lang="id" langToggle={langToggle}>
+<BaseLayout title={title} description={`${author} (${year})`} lang="zh" langToggle={langToggle}>
   <article>
     <header class="post-header">
       <h1>{title}</h1>

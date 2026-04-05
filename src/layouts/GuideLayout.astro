@@ -5,7 +5,8 @@ import KofiNote from '../components/KofiNote.astro';
 interface LangToggle {
   en: string;
   id: string | null;
-  active: 'en' | 'id';
+  zh: string | null;
+  active: 'en' | 'id' | 'zh';
 }
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
   description: string;
   lastUpdated: Date;
   sections: { id: string; title: string }[];
-  lang?: 'en' | 'id';
+  lang?: 'en' | 'id' | 'zh';
   langToggle?: LangToggle;
 }
 

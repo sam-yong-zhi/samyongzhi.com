@@ -2,32 +2,32 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const allSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.id.md'));
+const allSummaries = await getCollection('summaries', (s) => !s.data.draft && s.id.endsWith('.zh.md'));
 const summaries = allSummaries.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <BaseLayout
-  title="Ringkasan"
-  description="Ringkasan singkat dari buku, artikel, dan ide."
-  lang="id"
-  langToggle={{ en: '/summaries', id: '', zh: '/zh/summaries', active: 'id' }}
+  title="书摘"
+  description="书籍、文章和想法的简短提炼。"
+  lang="zh"
+  langToggle={{ en: '/summaries', id: '/id/summaries', zh: '', active: 'zh' }}
 >
   <div class="page-title">
-    <h1>Ringkasan</h1>
-    <p class="page-intro">Ringkasan singkat dari buku, artikel, dan ide.</p>
+    <h1>书摘</h1>
+    <p class="page-intro">书籍、文章和想法的简短提炼。</p>
   </div>
 
   <div class="post-list">
     {summaries.map((summary) => {
-      const slug = summary.id.replace(/\.id\.md$/, '');
-      const formattedDate = summary.data.date.toLocaleDateString('id-ID', {
+      const slug = summary.id.replace(/\.zh\.md$/, '');
+      const formattedDate = summary.data.date.toLocaleDateString('zh-CN', {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
       });
       return (
         <div class="post-card">
-          <a href={`/id/summaries/${slug}`} class="post-card__title">{summary.data.title}</a>
+          <a href={`/zh/summaries/${slug}`} class="post-card__title">{summary.data.title}</a>
           <p class="post-card__desc">{summary.data.author} · {summary.data.year}</p>
           <p class="post-card__meta">{formattedDate}</p>
         </div>
