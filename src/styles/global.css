@@ -647,15 +647,11 @@ a:hover {
     padding: 2rem 0 2rem;
   }
 
+  .site-name {
+    display: none;
+  }
+
   .site-nav {
-    display: none;
-  }
-
-  .lang-toggle {
-    display: none;
-  }
-
-  .theme-toggle {
     display: none;
   }
 
