@@ -32,6 +32,8 @@ sections:
     title: "Soal Kesabaran"
 ---
 
+Sebelum masuk ke inti panduan ini: panduan ini khusus soal membangun kemampuan membaca bahasa Inggris. Bukan membaca buku bahasa Indonesia atau bahasa Mandarin, karena pendekatannya memang berbeda, mulai dari cara fonik bekerja sampai daftar buku yang aku rekomendasikan. Aku tulis ini untuk orang tua Indonesia yang anaknya belajar bahasa Inggris di sekolah dan ingin membantu mereka lebih kuat dalam membaca bahasa Inggris.
+
 Kita sedang membesarkan anak-anak di lingkungan yang paling terfragmentasi perhatiannya sepanjang sejarah manusia. *The Anxious Generation* karya Jonathan Haidt mendokumentasikan bagaimana smartphone dan media sosial telah mengubah cara anak muda berhubungan dengan informasi: lebih pendek, lebih cepat, lebih visual. Kemampuan untuk duduk dengan konten panjang, mengikuti argumen yang berkelanjutan, dan mempertahankan fokus selama ratusan halaman menjadi semakin langka. Dan justru karena itu, nilainya semakin tinggi.
 
 Ini yang kebanyakan orang tua nggak sepenuhnya sadari: membaca bukan sekadar kemampuan literasi. Bahasa Inggris mendasari hampir setiap mata pelajaran yang akan ditemui anak, dari pemahaman soal cerita matematika sampai analisis di sains dan argumentasi di ilmu sosial. Anak yang baca dengan baik, baca cepat, dan baca dengan fokus punya keunggulan yang terus bertumbuh setiap tahunnya. Anak yang kesulitan dengan konten panjang di usia 8 tahun adalah murid yang merasa setiap pelajaran lebih susah di usia 12.
