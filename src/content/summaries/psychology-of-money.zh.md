@@ -1,5 +1,5 @@
 ---
-title: "《金钱心理学》——我的读书笔记"
+title: "《金钱心理学》"
 author: "Morgan Housel"
 year: 2020
 tags: ["Money", "Behaviour", "Long game"]
