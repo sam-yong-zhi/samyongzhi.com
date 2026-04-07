@@ -12,7 +12,8 @@ function idToSlug(id: string) { return id.replace(/\.(en|id|zh)\.md$/, ''); }
 const { post, lang = 'en' } = Astro.props;
 const { title, date, categories, description } = post.data;
 
-const formattedDate = date.toLocaleDateString('en-US', {
+const dateLocale = lang === 'id' ? 'id-ID' : lang === 'zh' ? 'zh-CN' : 'en-US';
+const formattedDate = date.toLocaleDateString(dateLocale, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
