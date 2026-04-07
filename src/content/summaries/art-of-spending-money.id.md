@@ -7,7 +7,7 @@ type: "summary"
 date: 2026-04-07
 ---
 
-Buku pertama Morgan Housel, The Psychology of Money, membuat argumen bahwa bagaimana kamu berperilaku terhadap uang lebih penting daripada apa yang kamu ketahui tentangnya. Buku ini melanjutkan dari situ. Kalau Psychology of Money berbicara tentang membangun kekayaan, The Art of Spending Money berbicara tentang apa yang harus dilakukan dengannya setelah kamu punya. Ternyata itu pertanyaan yang jauh lebih sulit, dan hampir nggak ada yang membicarakannya secara serius di dunia personal finance.
+Dalam The Psychology of Money, Morgan Housel membuat argumen bahwa bagaimana kamu berperilaku terhadap uang lebih penting daripada apa yang kamu ketahui tentangnya. Buku ini melanjutkan dari situ. Kalau Psychology of Money berbicara tentang membangun kekayaan, The Art of Spending Money berbicara tentang apa yang harus dilakukan dengannya setelah kamu punya. Ternyata itu pertanyaan yang jauh lebih sulit, dan hampir nggak ada yang membicarakannya secara serius di dunia personal finance.
 
 ## Uang sebagai Alat atau Penggaris
 

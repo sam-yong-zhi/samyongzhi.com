@@ -7,7 +7,7 @@ type: "summary"
 date: 2026-04-07
 ---
 
-Morgan Housel's first book, The Psychology of Money, made the case that how you behave around money matters more than what you know about it. This book picks up where that one left off. If Psychology of Money was about building wealth, The Art of Spending Money is about what to do with it once you have it. That turns out to be a much harder question, and almost nobody in the personal finance world talks about it seriously.
+In The Psychology of Money, Morgan Housel made the case that how you behave around money matters more than what you know about it. This book picks up where that one left off. If Psychology of Money was about building wealth, The Art of Spending Money is about what to do with it once you have it. That turns out to be a much harder question, and almost nobody in the personal finance world talks about it seriously.
 
 ## Money as tool or yardstick
 
