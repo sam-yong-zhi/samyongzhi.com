@@ -775,7 +775,11 @@ a:hover {
 
 .page-intro {
   color: var(--muted);
-  margin-top: 0.25rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.page-intro:last-of-type {
   margin-bottom: 2rem;
 }
 
